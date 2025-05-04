@@ -50,4 +50,31 @@ export default function WelcomePage() {
 const styles = {
   container: {
     padding: '2rem',
-    fontFamily: '-apple-system, BlinkMac
+    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif',
+    minHeight: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
+    transition: 'background-color 0.3s ease, color 0.3s ease',  // Smooth transition
+  },
+  title: {
+    fontSize: '2.5rem',
+    marginBottom: '1rem',
+    fontWeight: '600',
+    transition: 'color 0.3s ease', // Smooth transition for color
+  },
+  description: {
+    fontSize: '1.2rem',
+    maxWidth: '500px',
+    margin: 0,
+  },
+  langTag: {
+    position: 'fixed',
+    bottom: '1rem',
+    right: '1rem',
+    fontSize: '0.9rem',
+    color: '#888',
+  },
+};
