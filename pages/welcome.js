@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
+import confetti from 'canvas-confetti'; // Import the confetti library
 
 const messages = {
   am: { title: "እንኳን ወደ Megashift በደህና መጡ!", description: "ኢሜልዎ ተረጋግጧል። አሁን ወደ መተግበሪያው ተመልሰው መግባት ይችላሉ።" },
   ar: { title: "مرحبًا بك في Megashift!", description: "تم تأكيد بريدك الإلكتروني. يمكنك الآن العودة إلى التطبيق وتسجيل الدخول." },
   en: { title: "Welcome to Megashift!", description: "Your email has been confirmed. You can now return to the app and log in." },
-  // Add more languages here...
 };
 
 const langMap = {
@@ -35,11 +35,17 @@ export default function WelcomePage() {
       setDarkMode(e.matches);
     });
 
+    // Trigger confetti animation
+    confetti();
+
     return () => mediaQuery.removeEventListener('change', (e) => setDarkMode(e.matches));
   }, []);
 
   return (
     <div style={{ ...styles.container, backgroundColor: darkMode ? '#121212' : '#f9f9f9', color: darkMode ? '#f9f9f9' : '#333' }}>
+      <div style={styles.icon}>
+        <i className="fas fa-check-circle" style={{ color: 'green', fontSize: '4rem' }}></i>
+      </div>
       <h1 style={{ ...styles.title, color: darkMode ? '#fff' : '#000' }}>{content.title}</h1>
       <p style={styles.description}>{content.description}</p>
       <div style={styles.langTag}>{lang.toUpperCase()}</div>
@@ -57,13 +63,16 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
     textAlign: 'center',
-    transition: 'background-color 0.3s ease, color 0.3s ease',  // Smooth transition
+    transition: 'background-color 0.3s ease, color 0.3s ease',
+  },
+  icon: {
+    marginBottom: '1rem',
   },
   title: {
     fontSize: '2.5rem',
     marginBottom: '1rem',
     fontWeight: '600',
-    transition: 'color 0.3s ease', // Smooth transition for color
+    transition: 'color 0.3s ease',
   },
   description: {
     fontSize: '1.2rem',
