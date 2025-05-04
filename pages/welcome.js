@@ -35,8 +35,10 @@ export default function WelcomePage() {
       setDarkMode(e.matches);
     });
 
-    // Trigger confetti animation
-    confetti();
+    // Delay the confetti animation by 1 second
+    setTimeout(() => {
+      confetti(); // Trigger the confetti animation after 1 second
+    }, 1000);
 
     return () => mediaQuery.removeEventListener('change', (e) => setDarkMode(e.matches));
   }, []);
