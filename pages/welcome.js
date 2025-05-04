@@ -37,7 +37,13 @@ export default function WelcomePage() {
 
     // Delay the confetti animation by 1 second
     setTimeout(() => {
-      confetti(); // Trigger the confetti animation after 1 second
+      confetti({
+        spread: 70,
+        angle: 90,
+        particleCount: 200,
+        origin: { y: 0.6 },
+        duration: 3000, // Increase the duration for a longer animation (3000ms = 3 seconds)
+      });
     }, 1000);
 
     return () => mediaQuery.removeEventListener('change', (e) => setDarkMode(e.matches));
