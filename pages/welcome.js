@@ -47,16 +47,32 @@ const messages = {
   uk: { title: "Ласкаво просимо до Megashift!", description: "Вашу електронну адресу підтверджено. Тепер ви можете повернутися до додатка та увійти." }, // Ukrainian
   ur: { title: "Megashift میں خوش آمدید!", description: "آپ کا ای میل تصدیق ہو چکا ہے۔ اب آپ ایپ میں واپس جا کر لاگ ان کر سکتے ہیں۔" }, // Urdu
   vi: { title: "Chào mừng đến với Megashift!", description: "Email của bạn đã được xác nhận. Giờ bạn có thể quay lại ứng dụng và đăng nhập." }, // Vietnamese
-  'zh-cn': { title: "欢迎使用 Megashift！", description: "您的电子邮件已确认。您现在可以返回应用并登录。" }, // Simplified Chinese
-  'zh-tw': { title: "歡迎使用 Megashift！", description: "您的電子郵件已確認。您現在可以返回應用並登錄。" } // Traditional Chinese
+  'zh-cn': { title: "欢迎使用 Megashift！", description: "您的电子邮件已确认。您现在可以返回应用并登录。" },
+  'zh-tw': { title: "歡迎使用 Megashift！", description: "您的電子郵件已確認。您現在可以返回應用並登錄。" }
 };
 
 const langMap = {
+  'zh-hans': 'zh-cn',
+  'zh-hant': 'zh-tw',
   'zh-hk': 'zh-tw',
+  'zh-mo': 'zh-tw',
   'zh-tw': 'zh-tw',
-  'zh': 'zh-cn',
+  'zh-cn': 'zh-cn',
   'pt-br': 'pt-br',
 };
+
+function detectZhScript() {
+  const languages = navigator.languages || [navigator.language];
+  for (const lang of languages) {
+    if (lang.toLowerCase().includes('hans')) return 'zh-hans';
+    if (lang.toLowerCase().includes('hant')) return 'zh-hant';
+  }
+
+  // Fallback detection by region
+  const region = navigator.language.toLowerCase();
+  if (region === 'zh-tw' || region === 'zh-hk' || region === 'zh-mo') return 'zh-hant';
+  return 'zh-hans';
+}
 
 export default function WelcomePage() {
   const [content, setContent] = useState({ title: '', description: '' });
@@ -65,32 +81,37 @@ export default function WelcomePage() {
 
   useEffect(() => {
     let userLang = (navigator.language || 'en').toLowerCase();
-    userLang = langMap[userLang] || userLang.split('-')[0];
-    setLang(userLang);
-    setContent(messages[userLang] || messages['en']);
 
-    // Check dark mode preference
+    if (userLang.startsWith('zh')) {
+      const zhScript = detectZhScript();
+      userLang = zhScript;
+    }
+      
+    console.log('Detected userLang:', userLang);
+
+
+    const mappedLang = langMap[userLang] || userLang.split('-')[0];
+    setLang(mappedLang);
+    setContent(messages[mappedLang] || messages['en']);
+
     const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
     setDarkMode(prefersDarkMode);
 
-    // Listen to changes in system theme preference
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    mediaQuery.addEventListener('change', (e) => {
-      setDarkMode(e.matches);
-    });
+    const darkModeListener = (e) => setDarkMode(e.matches);
+    mediaQuery.addEventListener('change', darkModeListener);
 
-    // Delay the confetti animation by 1 second
     setTimeout(() => {
       confetti({
         spread: 70,
         angle: 90,
         particleCount: 200,
         origin: { y: 0.6 },
-        duration: 3000, // Increase the duration for a longer animation (3000ms = 3 seconds)
+        duration: 3000,
       });
     }, 1000);
 
-    return () => mediaQuery.removeEventListener('change', (e) => setDarkMode(e.matches));
+    return () => mediaQuery.removeEventListener('change', darkModeListener);
   }, []);
 
   return (
@@ -98,7 +119,6 @@ export default function WelcomePage() {
       <h1 style={{ ...styles.title, color: darkMode ? '#fff' : '#000' }}>{content.title}</h1>
       <p style={styles.description}>{content.description}</p>
       <div style={styles.langTag}>{lang.toUpperCase()}</div>
-      <div style={styles.langTag}>{userLang.toUpperCase()}</div>
     </div>
   );
 }
@@ -114,9 +134,6 @@ const styles = {
     justifyContent: 'center',
     textAlign: 'center',
     transition: 'background-color 0.3s ease, color 0.3s ease',
-  },
-  icon: {
-    marginBottom: '1rem',
   },
   title: {
     fontSize: '2.5rem',
