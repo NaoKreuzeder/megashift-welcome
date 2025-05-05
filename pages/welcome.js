@@ -100,7 +100,7 @@ export default function WelcomePage() {
       </div>
       <h1 style={{ ...styles.title, color: darkMode ? '#fff' : '#000' }}>{content.title}</h1>
       <p style={styles.description}>{content.description}</p>
-      <div style={styles.langTag}>{lang.toUpperCase()}</div>
+      <div style={styles.langTag}>{lang.toUpperCase()  userLang}</div>
     </div>
   );
 }
