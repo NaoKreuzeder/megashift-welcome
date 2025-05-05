@@ -95,12 +95,10 @@ export default function WelcomePage() {
 
   return (
     <div style={{ ...styles.container, backgroundColor: darkMode ? '#121212' : '#f9f9f9', color: darkMode ? '#f9f9f9' : '#333' }}>
-      <div style={styles.icon}>
-        <i className="fas fa-check-circle" style={{ color: 'green', fontSize: '4rem' }}></i>
-      </div>
       <h1 style={{ ...styles.title, color: darkMode ? '#fff' : '#000' }}>{content.title}</h1>
       <p style={styles.description}>{content.description}</p>
-      <div style={styles.langTag}>{lang.toUpperCase()  userLang}</div>
+      <div style={styles.langTag}>{lang.toUpperCase()}</div>
+      <div style={styles.langTag}>{userLang.toUpperCase()}</div>
     </div>
   );
 }
