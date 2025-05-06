@@ -173,6 +173,19 @@ export default function ResetPasswordPage() {
             autoComplete="new-password"
           />
 
+          <button
+            onClick={handlePasswordReset}
+            style={{
+              ...styles.button,
+              marginTop: "1rem",
+              opacity: passwordsMatch && passwordIsValid && newPassword ? 1 : 0.3,
+              cursor: passwordsMatch && passwordIsValid && newPassword ? "pointer" : "not-allowed"
+            }}
+            disabled={!passwordsMatch || !passwordIsValid || !newPassword}
+          >
+            {content.button}
+          </button>
+
           <p
             style={{
               ...styles.message,
@@ -200,18 +213,6 @@ export default function ResetPasswordPage() {
               ? `✅ ${content.password_valid_msg}`
               : `❌ ${content.password_invalid_msg}`}
           </p>
-
-          <button
-            onClick={handlePasswordReset}
-            style={{
-              ...styles.button,
-              opacity: passwordsMatch && passwordIsValid && newPassword ? 1 : 0.3,
-              cursor: passwordsMatch && passwordIsValid && newPassword ? "pointer" : "not-allowed"
-            }}
-            disabled={!passwordsMatch || !passwordIsValid || !newPassword}
-          >
-            {content.button}
-          </button>
 
           {message && <p style={styles.message}>{message}</p>}
         </div>
