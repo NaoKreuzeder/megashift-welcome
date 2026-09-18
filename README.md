@@ -1,40 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Megashift website
 
-## Getting Started
+Public website for **Megashift**, deployed with Next.js on Vercel.
 
-First, run the development server:
+## Routes
+
+- `/` — product website
+- `/support` — support and contact information
+- `/privacy` — current Privacy Policy
+- `/terms` — current Terms of Service
+- `/welcome` — existing email-confirmation landing page
+- `/reset-password` — existing Supabase password-reset page
+
+The redesign deliberately leaves the functional source of `/welcome`, `/reset-password` and their reset-password translations unchanged.
+
+## Local development
+
+Use Node.js 20 or newer, then:
 
 ```bash
+npm ci
+cp .env.example .env.local
+# Fill in the same public Supabase values already configured in Vercel.
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Never commit `.env.local`, a Supabase service-role/secret key, password-reset links, OAuth tokens or other credentials.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Validation
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+npm run lint
+npm test
+npm run build
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+The project pins Next.js **15.5.25**, the current Next.js 15 maintenance-LTS release available when this website update was prepared. Keep Next.js and `eslint-config-next` on a supported patched release.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deployment
 
-## Learn More
+Work is prepared on `website-redesign`. Vercel can create a Preview deployment from that branch. Verify the homepage, legal pages, support route, `/welcome`, and `/reset-password` before merging into `main`.
 
-To learn more about Next.js, take a look at the following resources:
+After the production site is live, update Google Auth Platform, App Store Connect and Google Play to use:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- `https://www.megashiftapp.com/`
+- `https://www.megashiftapp.com/privacy`
+- `https://www.megashiftapp.com/terms`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Do not remove old OAuth redirect/callback domains until the active OAuth/Supabase configuration has been checked separately.
