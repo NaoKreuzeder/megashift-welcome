@@ -39,12 +39,39 @@ test('Google sign-in is clearly separated from device calendar access', () => {
   assert.match(privacy, /Google API Services User Data Policy/);
 });
 
-test('marketing site uses only supplied local product imagery', () => {
+test('marketing site keeps supplied imagery and uses official store badges', () => {
   for (const asset of ['megashift-icon.svg','calendar.svg','appointments.svg','reports.svg','hours.svg','pdf.svg','cloud.svg','themes.svg']) {
     assert.ok(existsSync(new URL(`../public/images/${asset}`, import.meta.url)), asset);
   }
-  const home = read('pages/index.js');
-  assert.doesNotMatch(home, /images\.unsplash|pexels|googleusercontent/);
+  const badges = read('components/StoreButtons.js');
+  assert.match(badges, /tools\.applemediaservices\.com/);
+  assert.match(badges, /play\.google\.com\/intl\/en_us\/badges/);
+  assert.doesNotMatch(badges, //);
+});
+
+test('localized website routes and content are complete', () => {
+  const localeSource = read('lib/i18n/locales.js');
+  const slugs = [...localeSource.matchAll(/slug:\s*'([^']+)'/g)].map(match => match[1]);
+  assert.equal(new Set(slugs).size, slugs.length);
+  assert.equal(slugs.length, 37);
+  assert.equal(slugs[0], 'en');
+
+  for (const slug of slugs) {
+    const path = `content/locales/${slug}.js`;
+    assert.ok(existsSync(new URL(`../${path}`, import.meta.url)), path);
+    const content = read(path);
+    assert.match(content, /export default/);
+    assert.doesNotMatch(content, /export \{ default \} from '\.\/en'/);
+  }
+
+  assert.ok(existsSync(new URL('../pages/[locale]/index.js', import.meta.url)));
+  assert.ok(existsSync(new URL('../pages/[locale]/support.js', import.meta.url)));
+  const localizedVisual = read('components/LocalizedVisual.js');
+  for (const asset of ['screenshots-phone.avif', 'screenshots-pdf.avif', 'screenshots-cloud.avif']) {
+    assert.match(localizedVisual, new RegExp(asset.replace('.', '\\.')));
+    assert.ok(existsSync(new URL(`../public/images/${asset}`, import.meta.url)), asset);
+  }
+  assert.match(read('components/SiteLayout.js'), /localeBySlug\.en/);
 });
 
 test('existing auth implementation remains unchanged', () => {
@@ -53,14 +80,27 @@ test('existing auth implementation remains unchanged', () => {
   assert.equal(sha('messages/reset-password-messages.js'), '327f74c0bde5736a3b91766b6b6fd5e7f13f1630fd08e851e2668762c2c8adf5');
 });
 
-test('security and indexing settings are present', () => {
+test('security, indexing and localized sitemap settings are present', () => {
   const config = read('next.config.mjs');
   assert.match(config, /X-Content-Type-Options/);
   assert.match(config, /X-Frame-Options/);
   assert.match(config, /Referrer-Policy/);
   assert.match(config, /X-Robots-Tag/);
+
   const sitemap = read('public/sitemap.xml');
   assert.doesNotMatch(sitemap, /welcome|reset-password/);
+  for (const path of ['/de', '/ja', '/bn', '/zh-tw', '/de/support', '/ja/support']) {
+    assert.match(sitemap, new RegExp(path.replace('/', '\\/')));
+  }
+});
+
+test('localized SEO uses canonical and hreflang without changing auth routes', () => {
+  const seo = read('components/Seo.js');
+  assert.match(seo, /hrefLang/);
+  assert.match(seo, /x-default/);
+  const config = read('next.config.mjs');
+  assert.doesNotMatch(config, /redirects\s*\(/);
+  assert.doesNotMatch(config, /i18n\s*:/);
 });
 
 test('maintenance-LTS Next.js security patch is pinned', () => {

@@ -4,14 +4,26 @@ Public website for **Megashift**, deployed with Next.js on Vercel.
 
 ## Routes
 
-- `/` — product website
-- `/support` — support and contact information
-- `/privacy` — current Privacy Policy
-- `/terms` — current Terms of Service
+- `/` — English product website
+- `/<locale>` — localized product website
+- `/support` and `/<locale>/support` — support and contact information
+- `/privacy` — current English Privacy Policy
+- `/terms` — current English Terms of Service
 - `/welcome` — existing email-confirmation landing page
 - `/reset-password` — existing Supabase password-reset page
+- `/app-ads.txt` — AdMob app-ads.txt
 
-The redesign deliberately leaves the functional source of `/welcome`, `/reset-password` and their reset-password translations unchanged.
+The localization architecture deliberately does **not** use Next.js global i18n routing, so the existing auth, legal and app-ads URLs remain unchanged.
+
+## Localization
+
+Website locales are defined in `lib/i18n/locales.js`. Marketing/support copy lives in `content/locales/`. Localized Android product screenshots are bundled into three optimized AVIF atlases: `public/images/screenshots-phone.avif` for calendar, appointments and reports, `public/images/screenshots-pdf.avif` for Share & Print, and `public/images/screenshots-cloud.avif` for Cloud Sync & Backup. Each atlas contains one row per website locale. `components/LocalizedVisual.js` selects the correct row and panel for each localized page. If an atlas cannot be loaded, the site falls back to the existing English product imagery.
+
+The language switcher does not force browser-language redirects. The English root URL remains the stable default.
+
+## Store badges
+
+Download CTAs use official App Store and Google Play badge artwork and share one sizing component, so hero and lower download CTAs have consistent dimensions.
 
 ## Local development
 
@@ -34,16 +46,12 @@ npm test
 npm run build
 ```
 
-The project pins Next.js **15.5.25**, the current Next.js 15 maintenance-LTS release available when this website update was prepared. Keep Next.js and `eslint-config-next` on a supported patched release.
+`npm run build` regenerates the localized sitemap and runs the regression suite before Next.js builds the site. The regression suite pins the source hashes of `/welcome`, `/reset-password` and the reset-password translations.
+
+The project pins Next.js **15.5.25**. Keep Next.js and `eslint-config-next` on a supported patched release.
 
 ## Deployment
 
-Work is prepared on `website-redesign`. Vercel can create a Preview deployment from that branch. Verify the homepage, legal pages, support route, `/welcome`, and `/reset-password` before merging into `main`.
+Substantial changes should be prepared on a feature branch and reviewed through a Vercel Preview before merging into `main`. For localization work, verify a representative mix of Latin, Cyrillic, CJK, Thai, Hindi and Bengali pages on desktop and mobile.
 
-After the production site is live, update Google Auth Platform, App Store Connect and Google Play to use:
-
-- `https://www.megashiftapp.com/`
-- `https://www.megashiftapp.com/privacy`
-- `https://www.megashiftapp.com/terms`
-
-Do not remove old OAuth redirect/callback domains until the active OAuth/Supabase configuration has been checked separately.
+Do not merge changes that alter the existing authentication source files unless the authentication change is intentional and has been tested through real signup and password-reset flows.

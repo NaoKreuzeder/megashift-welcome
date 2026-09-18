@@ -1,8 +1,9 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document";
+import { localeBySlug } from "@/lib/i18n/locales";
 
-export default function Document() {
+export default function MegashiftDocument({ htmlLang }) {
   return (
-    <Html lang="en">
+    <Html lang={htmlLang || "en"}>
       <Head>
         <link rel="icon" href="/images/megashift-icon.svg" type="image/svg+xml" />
       </Head>
@@ -13,3 +14,12 @@ export default function Document() {
     </Html>
   );
 }
+
+MegashiftDocument.getInitialProps = async ctx => {
+  const initialProps = await Document.getInitialProps(ctx);
+  const slug = typeof ctx.query?.locale === "string" ? ctx.query.locale : "en";
+  return {
+    ...initialProps,
+    htmlLang: localeBySlug[slug]?.htmlLang || "en",
+  };
+};
