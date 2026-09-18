@@ -57,7 +57,7 @@ export default function Home() {
 
       <section className={styles.calendarSection}>
         <div className={styles.calendarCopy}><p className={styles.sectionKicker}>04 / WORK MEETS LIFE</p><h2>Your appointments.<br /><span>Alongside your shifts.</span></h2><p>With permission, Megashift can show appointments from calendars available through Android or iOS. The integration uses your device calendar system rather than the Google Calendar API.</p><p className={styles.small}>Calendar integration is an optional PRO feature. Calendar availability depends on your device and calendar accounts.</p></div>
-        <div className={styles.calendarPhones}><Phone view="appointments" /><Phone view="themes" /></div>
+        <div className={styles.calendarPhones}><div className={styles.calendarPrimary}><Phone view="appointments" /></div><div className={styles.calendarSecondary}><Phone view="calendar" decorative /></div></div>
       </section>
 
       <section className={styles.faq}>
