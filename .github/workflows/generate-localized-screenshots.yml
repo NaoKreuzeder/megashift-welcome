@@ -37,8 +37,12 @@ jobs:
       - name: Install image tooling
         run: python -m pip install -r scripts/requirements-screenshots.txt
 
-      - name: Recover localized source artwork from Google Play
-        run: python scripts/download-play-screenshots.py /tmp/megashift-android
+      - name: Inspect screenshot recovery helper
+        run: |
+          sed -n '1,260p' scripts/download-play-screenshots.py
+          echo "--- HELP ---"
+          python scripts/download-play-screenshots.py --help || true
+          exit 1
 
       - name: Generate 185 native lossless WebP assets
         run: python scripts/generate-screenshots.py /tmp/megashift-android
