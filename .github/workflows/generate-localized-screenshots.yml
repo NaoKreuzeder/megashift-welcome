@@ -37,11 +37,45 @@ jobs:
       - name: Install image tooling
         run: python -m pip install -r scripts/requirements-screenshots.txt
 
-      - name: Inspect screenshot recovery helper
+      - name: Diagnose English Play screenshot ordering
         run: |
-          sed -n '1,260p' scripts/download-play-screenshots.py
-          echo "--- HELP ---"
-          python scripts/download-play-screenshots.py --help || true
+          python - <<'PY'
+          import importlib.util, json
+          from pathlib import Path
+
+          spec = importlib.util.spec_from_file_location("playdl", "scripts/download-play-screenshots.py")
+          mod = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(mod)
+
+          config = json.loads(Path("scripts/screenshot-crops.json").read_text())
+          expected = json.loads(Path("scripts/screenshot-expected-crops.json").read_text())
+          slug = "en"
+          source_folder = config["locales"][slug]
+          hl, gl = mod.play_locale(source_folder)
+          query = {"id": mod.PACKAGE, "hl": hl}
+          if gl:
+              query["gl"] = gl
+          page_url = mod.PLAY_URL + "?" + mod.urlencode(query)
+          bases = mod.screenshot_bases(mod.fetch(page_url))
+          candidates = []
+          for base in bases:
+              try:
+                  data = mod.fetch(base + "=s0", attempts=3)
+              except RuntimeError:
+                  continue
+              image = mod.decode_candidate(data)
+              if image is not None:
+                  candidates.append((base, image))
+          print("candidate_count", len(candidates))
+          for i, (base, image) in enumerate(candidates, 1):
+              matches = []
+              for view, settings in config["views"].items():
+                  digest = mod.crop_digest(image, settings["crop"])
+                  if digest == expected[slug][view]:
+                      matches.append(view)
+              print(i, matches, base[-32:])
+          print("expected sources", {v:s["source"] for v,s in config["views"].items()})
+          PY
           exit 1
 
       - name: Generate 185 native lossless WebP assets
