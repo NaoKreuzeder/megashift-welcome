@@ -1,0 +1,3526 @@
+{
+  "version": 1,
+  "encoding": "lossless WebP; native crop; no resize",
+  "generator": {
+    "pillow": "12.3.0",
+    "libwebp": "1.6.0",
+    "method": 6
+  },
+  "assets": {
+    "public/images/screenshots/en/calendar.webp": {
+      "locale": "en",
+      "view": "calendar",
+      "source": "English (en-US)/Android Phones 169/02.png",
+      "sourceSha256": "8c1bb7efe3c17f6afbaf35c117ab834235220e661d6f533803c51d7ec2395f24",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 288840,
+      "sha256": "db06fd98576fb6adc9469703676b4b23e58f6f608d5000d9faaab0a4667e560d",
+      "pixelSha256": "4342f262b45b97f801f8c1ecf63470dde70bb6ad0152e7a604d31e2231796285"
+    },
+    "public/images/screenshots/en/appointments.webp": {
+      "locale": "en",
+      "view": "appointments",
+      "source": "English (en-US)/Android Phones 169/03.png",
+      "sourceSha256": "3a2ba885c3c1b3ddae6bd24d89381d71a9271302fdd6e2ecd62bbe5b188d3606",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 214904,
+      "sha256": "b7e34d6a761adfa5b798b37e979da6c88309a3ac1a560f3523fc356426c52a48",
+      "pixelSha256": "545036c0436b1c76fdcc6a7f6ff885ca60f7379e9120b778b62554a7d5386f75"
+    },
+    "public/images/screenshots/en/reports.webp": {
+      "locale": "en",
+      "view": "reports",
+      "source": "English (en-US)/Android Phones 169/04.png",
+      "sourceSha256": "3e8f0d09cb758ad23b1e83d50b9fb2c88b398c3e25f4897556211528ae1a7261",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 190154,
+      "sha256": "2bd6074fe62ee13eb4254489e357f61fe02464e7160c769c2375ae4493d9dacd",
+      "pixelSha256": "fb5ae024e4003a252780810e2be5d1c1ac337b44c65484a479edb00f74ad559c"
+    },
+    "public/images/screenshots/en/pdf.webp": {
+      "locale": "en",
+      "view": "pdf",
+      "source": "English (en-US)/Android Phones 169/06.png",
+      "sourceSha256": "187998983bbabcf09f658a93d2ba1855d5caa7cee351ed1aba0c7b71c9f80aa3",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 434524,
+      "sha256": "e8891f8aadfd8d3bf363a08598b1d1211fc336cb55ff633614f23b4e7892cab4",
+      "pixelSha256": "c7f1885ef5ed3df6e9d81ddfcf178a6c4aa70c76fcd850ea53b1c7c89c168be7"
+    },
+    "public/images/screenshots/en/cloud.webp": {
+      "locale": "en",
+      "view": "cloud",
+      "source": "English (en-US)/Android Phones 169/07.png",
+      "sourceSha256": "c92be475c8c1dd9694ee43d5c61b3582a5fffc566b2e9f1a1d33caebf577d374",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 378604,
+      "sha256": "3e08367878ebb0cbda4e1f58b31424b1f0f74f91f4f0b852a0d27a588f0e1158",
+      "pixelSha256": "e6720ed4065a777fb44cf2dbcb4a087e59fbf33be3a0de8fde74b3189eaddebd"
+    },
+    "public/images/screenshots/de/calendar.webp": {
+      "locale": "de",
+      "view": "calendar",
+      "source": "German (de-DE)/Android Phones 169/02.png",
+      "sourceSha256": "6f15e5cf90a8c2425d47d728b9ecbca1a2b6fd7c6161a6ab390db618884b5150",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 287464,
+      "sha256": "703c897e1d47dc01c0adf324413d433cfee849fb3be8d8f0473c8a791ca1c1c4",
+      "pixelSha256": "09c98781ecbe5c39627fd15a0c6b2e062daea9c4132578663dda62ef10a47a05"
+    },
+    "public/images/screenshots/de/appointments.webp": {
+      "locale": "de",
+      "view": "appointments",
+      "source": "German (de-DE)/Android Phones 169/03.png",
+      "sourceSha256": "49951452c1788764170b232d0ce5d21f9eb7fcf2717b5c183b02731d83f4014a",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 208388,
+      "sha256": "e58dba874c30d3cf7dbac14b90301be0c36dbfd61f84b2ed234c7ac7afc0620a",
+      "pixelSha256": "e1282d6c03be2663eb158da8af5b7a55a8cef413d1d2031740da0640768a38c7"
+    },
+    "public/images/screenshots/de/reports.webp": {
+      "locale": "de",
+      "view": "reports",
+      "source": "German (de-DE)/Android Phones 169/04.png",
+      "sourceSha256": "3dc193cff8c82788a7bda28f21d21d70980d0cc5b30accb73c9909f623964b93",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 194686,
+      "sha256": "34ea4653192613b2e1e9e6179f0a968468292e7354d795b9ed164566be31b058",
+      "pixelSha256": "8a7f5091a103c66382f5e2cd860d3134db13ec1fb5f98e0d7e3c37cc1a480410"
+    },
+    "public/images/screenshots/de/pdf.webp": {
+      "locale": "de",
+      "view": "pdf",
+      "source": "German (de-DE)/Android Phones 169/06.png",
+      "sourceSha256": "12b3f3885be948e086858dfc4470fca0adcbcf0a65dfeea318d5f632e6861bc2",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 409504,
+      "sha256": "5998477ee5899cfe6bcf965d5357a6238ba98627bfa4dbab8353cd1e98e6003f",
+      "pixelSha256": "2059cbc8db67352e1447e60cfb2589cf355a14868a1119b675e27e0f8c92d30b"
+    },
+    "public/images/screenshots/de/cloud.webp": {
+      "locale": "de",
+      "view": "cloud",
+      "source": "German (de-DE)/Android Phones 169/07.png",
+      "sourceSha256": "45017713fe7a468759832a8a0fbfa1cb5558214d27365fe2920c0bbf5e87620b",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 377740,
+      "sha256": "e985f1d4ffbf1cee10f25d9ea7204d31a3b01ebea3101801fe5baa51eb081a55",
+      "pixelSha256": "60aac7192d481bc235fb0860ab6876b3d1c2ac62cd33c09312ee800375617277"
+    },
+    "public/images/screenshots/es/calendar.webp": {
+      "locale": "es",
+      "view": "calendar",
+      "source": "Spanish (es-ES)/Android Phones 169/02.png",
+      "sourceSha256": "5164588ef95ee76670f402d486fc9992a70fd0d4758eee8285b54ce6c216dc7c",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 307828,
+      "sha256": "96249ffa04392669db58a83c5f4aa21c8ccb3bffae663e1e42ea237343dd5944",
+      "pixelSha256": "aa9492a8cca1f79cc7c69bf84034107f4722a302bd985fca662f2f40d685635d"
+    },
+    "public/images/screenshots/es/appointments.webp": {
+      "locale": "es",
+      "view": "appointments",
+      "source": "Spanish (es-ES)/Android Phones 169/03.png",
+      "sourceSha256": "b5aed38e1470f24cfb63664a906b28c45355ac63b09f3e2adbb537194f75f98d",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 218056,
+      "sha256": "5b81a21682cd14a94383063aff029c0bd0af27ca4ce1e557d0671481a44bfbba",
+      "pixelSha256": "235c3c30f4e91f6f1a643f26dddd0c5d4a9755b119e4179328459650f5650726"
+    },
+    "public/images/screenshots/es/reports.webp": {
+      "locale": "es",
+      "view": "reports",
+      "source": "Spanish (es-ES)/Android Phones 169/04.png",
+      "sourceSha256": "b6788c921f91e28b1bca7554a70b99e149b8e9d1a0e05b94c79696079476348c",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 191538,
+      "sha256": "c48d7e94504f6bebc721201a5cd7b7bd7ec4d73f149e1b690c340856ec7abbde",
+      "pixelSha256": "296f5b64eb848633c0682d7ddabd2d32ef7fc22b02aa486f20219f28ce362bd9"
+    },
+    "public/images/screenshots/es/pdf.webp": {
+      "locale": "es",
+      "view": "pdf",
+      "source": "Spanish (es-ES)/Android Phones 169/06.png",
+      "sourceSha256": "b8cc5f48b1ce5dbd6621b72088c6be3437d6d94ed09254554877b6b396a1b0d1",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 440884,
+      "sha256": "bf5d32f5571af96218d979a86305b2fe9e2a9e0f2e43bae3b74335a8a3b13779",
+      "pixelSha256": "b81d93b77ec3829a24186333d69d736477708cf1e14c3623d3907e81aed4dd9e"
+    },
+    "public/images/screenshots/es/cloud.webp": {
+      "locale": "es",
+      "view": "cloud",
+      "source": "Spanish (es-ES)/Android Phones 169/07.png",
+      "sourceSha256": "ea9bf9a7d15acfad3101c8ebc72772fec8efeb8f63863a8bb657536f055083c2",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 390814,
+      "sha256": "7c7ebbdf1fe051c557b62665baa6c167b7599f0b3a9c54b3b7363d82a651bd79",
+      "pixelSha256": "85c7d82651f63fe67c515b68480c8d1b8301153bf3b7314eae8cad14c657ded1"
+    },
+    "public/images/screenshots/fr/calendar.webp": {
+      "locale": "fr",
+      "view": "calendar",
+      "source": "French (fr-FR)/Android Phones 169/02.png",
+      "sourceSha256": "8ff9acd0a1b8b4999ac6f9813a584b3ec4bb5cc0f088d2e35c751707cf7c756c",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 295712,
+      "sha256": "08cd61e219bdd9960312d1b0508a12594812ecf05d94ab5eb8aa24ba7b6a4767",
+      "pixelSha256": "cb11a67603bf72b4b85d97b6752d63ef730a8100e8ff0061c1dab4bcf30d4015"
+    },
+    "public/images/screenshots/fr/appointments.webp": {
+      "locale": "fr",
+      "view": "appointments",
+      "source": "French (fr-FR)/Android Phones 169/03.png",
+      "sourceSha256": "86367689df9e96b469eb811baca189e58761d9d9b6f74d08a0554aeb0535842b",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 214664,
+      "sha256": "c61917638a7990518406cffc8449bbfd654538f3b5cdecf1a0d9fa8e6271bfee",
+      "pixelSha256": "998d440c1a7c209462164906dc322b73a328223fda5e6a208eb458179e36c38f"
+    },
+    "public/images/screenshots/fr/reports.webp": {
+      "locale": "fr",
+      "view": "reports",
+      "source": "French (fr-FR)/Android Phones 169/04.png",
+      "sourceSha256": "b3b3226189fb1b97bab227b4ee6baafc7b7a5e8756319754047da9820fd9a1ae",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 192692,
+      "sha256": "88ea5a8b643f5adc9a63df949079a23fe9f3e8904dbce076a265ae5568051e4b",
+      "pixelSha256": "6541ff623878c6e4ea4436cfc1b43cd7fb608bfd8c89401314e97c9bd244b286"
+    },
+    "public/images/screenshots/fr/pdf.webp": {
+      "locale": "fr",
+      "view": "pdf",
+      "source": "French (fr-FR)/Android Phones 169/06.png",
+      "sourceSha256": "4daa8a062b194c03c4100e8c7fb1fb4c55da9f513bba179f5f7bb07298139b5e",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 435456,
+      "sha256": "af9d3584fb2c90d2c8d84359ecc978326f8c9fbf7bba817ea38acde95c6414db",
+      "pixelSha256": "98acc56ed2aacb2fe53cd30fa39555511d9d7e2984eb423912585b710181f1cf"
+    },
+    "public/images/screenshots/fr/cloud.webp": {
+      "locale": "fr",
+      "view": "cloud",
+      "source": "French (fr-FR)/Android Phones 169/07.png",
+      "sourceSha256": "897c49373e86919c51b5a2b9c827f58dccb5edd3a7f551502ddcd6d1526e55d1",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 386058,
+      "sha256": "d8cfebb14179328c72da8831e168fc4408bc53714e5eedd74db8a234c65e8bb6",
+      "pixelSha256": "8bf82cb14b9511bc87755000f99935555929f43973e933bd25624c7165d11fa0"
+    },
+    "public/images/screenshots/it/calendar.webp": {
+      "locale": "it",
+      "view": "calendar",
+      "source": "Italian (it-IT)/Android Phones 169/02.png",
+      "sourceSha256": "5727a2ce9dce235fecf3d41eafb7c00ad2b79ce703b19d2e7adf30b6abe47e35",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 304040,
+      "sha256": "2a57ce4581de1c1c29f32e02b4b4bd44f75514a9957e512d3b70e07ab80f62cb",
+      "pixelSha256": "3450d3990388383fc374690046f7efc8567f84eb73d6b2f25275a1bbca075281"
+    },
+    "public/images/screenshots/it/appointments.webp": {
+      "locale": "it",
+      "view": "appointments",
+      "source": "Italian (it-IT)/Android Phones 169/03.png",
+      "sourceSha256": "38b2f9747d054abd8493ce01b73c79d3c4f6f8785dcfe560b3fb2599f2d802ab",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 207226,
+      "sha256": "5ae3b77f2d10a152def66545320ed426c522757596d7d0f72b34beeec30ab746",
+      "pixelSha256": "46e55ca3dafacddb29dc1cc46c8e5622c317fba1b4eaafcd0b1c196703abf427"
+    },
+    "public/images/screenshots/it/reports.webp": {
+      "locale": "it",
+      "view": "reports",
+      "source": "Italian (it-IT)/Android Phones 169/04.png",
+      "sourceSha256": "8560317e1917b63fd606e42bb02cf81db7bd487e83b97f3fdecaabf34df2e0d2",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 189332,
+      "sha256": "c7945be8f033ff386c52c4c3f39e058662c6d513b5f385f8d2bb17f51803f687",
+      "pixelSha256": "3819a7bd1947f1e26bcc84d6fae7f5cd19521ea8fe3a578bed84405acf4d10dc"
+    },
+    "public/images/screenshots/it/pdf.webp": {
+      "locale": "it",
+      "view": "pdf",
+      "source": "Italian (it-IT)/Android Phones 169/06.png",
+      "sourceSha256": "5962d2a3894928bab3ceb1a1ac5df8e9adf338d14eec9bc3bc93529bfd5ce0b2",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 422546,
+      "sha256": "005cdc5f3258b66cefd82a3e86b5adc68b25dec065577e39b98914b6ed1e0e7a",
+      "pixelSha256": "40e3814dce6436623e79213b082d0250e2a19d33d7d394f36cc240ac2f5f4ed1"
+    },
+    "public/images/screenshots/it/cloud.webp": {
+      "locale": "it",
+      "view": "cloud",
+      "source": "Italian (it-IT)/Android Phones 169/07.png",
+      "sourceSha256": "a7b4a0355f182af34a596465088c3064319101562f818560b18e265c0f19f755",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 387860,
+      "sha256": "25f6ea4de48c43a416fbe50e1c475773cae9bb2ca5899853fbed8e01e26305ee",
+      "pixelSha256": "08a003e05cec6df1c123b0613bb29a42e6b9d7be0dd2510cdadb03a56121e922"
+    },
+    "public/images/screenshots/pt/calendar.webp": {
+      "locale": "pt",
+      "view": "calendar",
+      "source": "Portuguese (pt-PT)/Android Phones 169/02.png",
+      "sourceSha256": "e77250759fed0df0187374785f4a4f5af601a1d0ae0e117486f12cf056e56aa2",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 298752,
+      "sha256": "e0edc87621e3b9b467ddb60fb6dfa2524f53d5ead30c4ea5ed60d4613affd18a",
+      "pixelSha256": "4d25532d15d76c2cf4c01477ad7b516b56ff34cdfe628d113a743defd63ba009"
+    },
+    "public/images/screenshots/pt/appointments.webp": {
+      "locale": "pt",
+      "view": "appointments",
+      "source": "Portuguese (pt-PT)/Android Phones 169/03.png",
+      "sourceSha256": "9f0f77a4509c14c944767d7fc6a6f8424083709b6c22e34a5f7d8d481db0dd30",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 216362,
+      "sha256": "44d3cb38c82ee674a8fda5c74cb9189b3191f13ecea129b72a4342e5925ba510",
+      "pixelSha256": "82d2d61541fde966084d64710d4eee53e85d98cffd9e13435cbc79530591dbd9"
+    },
+    "public/images/screenshots/pt/reports.webp": {
+      "locale": "pt",
+      "view": "reports",
+      "source": "Portuguese (pt-PT)/Android Phones 169/04.png",
+      "sourceSha256": "2eb2c751b31353250603c521571f1b0cf597e11d1b7c72ad59c5938140d49866",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 196828,
+      "sha256": "e3bba87689d7d239b623397d6b825e2766d56c00971932b7df0d18f7c1334ed4",
+      "pixelSha256": "10af8f4e9719d97b49347b6fa52811dd2a81302d4558b2bdf3a623d775b374dc"
+    },
+    "public/images/screenshots/pt/pdf.webp": {
+      "locale": "pt",
+      "view": "pdf",
+      "source": "Portuguese (pt-PT)/Android Phones 169/06.png",
+      "sourceSha256": "124ff6df99b48495662a2b75ad51988a0c437698273e75cb13dfd61a31eec7f0",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 441318,
+      "sha256": "e0064d7c1a64d78ad0442f4e89d3762d15d95802fdac63836a71e7c109da9b33",
+      "pixelSha256": "c1d89ebc684cc6c978477c2ecbcdf3c2ab6529b206b8829cb5559b0df34cc9b3"
+    },
+    "public/images/screenshots/pt/cloud.webp": {
+      "locale": "pt",
+      "view": "cloud",
+      "source": "Portuguese (pt-PT)/Android Phones 169/07.png",
+      "sourceSha256": "8aa666b698dba06750b04a6a76efde7a2d9aa9cacc6a570b24792b920cd659cb",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 385546,
+      "sha256": "e8a00c7f16c15ae7b32f9852c70641dfedd854f84fa7f8bf199b3cc8a0a59010",
+      "pixelSha256": "d3ff5871d89bc830e47fa4047e08aa057f3a15f4e353e424389ce79a542c4736"
+    },
+    "public/images/screenshots/pt-br/calendar.webp": {
+      "locale": "pt-br",
+      "view": "calendar",
+      "source": "Portuguese Brazil (pt-BR)/Android Phones 169/02.png",
+      "sourceSha256": "b2c5ab07c0899d595e4e0b5f1fc4633ce17a4905e9181ae9e19264212757f1a5",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 298752,
+      "sha256": "e0edc87621e3b9b467ddb60fb6dfa2524f53d5ead30c4ea5ed60d4613affd18a",
+      "pixelSha256": "4d25532d15d76c2cf4c01477ad7b516b56ff34cdfe628d113a743defd63ba009"
+    },
+    "public/images/screenshots/pt-br/appointments.webp": {
+      "locale": "pt-br",
+      "view": "appointments",
+      "source": "Portuguese Brazil (pt-BR)/Android Phones 169/03.png",
+      "sourceSha256": "6b93bc609e5dd4102b544a819a974883938897f871ca488553d2df9e1a2d8449",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 216362,
+      "sha256": "44d3cb38c82ee674a8fda5c74cb9189b3191f13ecea129b72a4342e5925ba510",
+      "pixelSha256": "82d2d61541fde966084d64710d4eee53e85d98cffd9e13435cbc79530591dbd9"
+    },
+    "public/images/screenshots/pt-br/reports.webp": {
+      "locale": "pt-br",
+      "view": "reports",
+      "source": "Portuguese Brazil (pt-BR)/Android Phones 169/04.png",
+      "sourceSha256": "60433ced2ef9a1b8d0241b4daf67d20f489c9b263faacbcb49f605ade103ee96",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 196828,
+      "sha256": "e3bba87689d7d239b623397d6b825e2766d56c00971932b7df0d18f7c1334ed4",
+      "pixelSha256": "10af8f4e9719d97b49347b6fa52811dd2a81302d4558b2bdf3a623d775b374dc"
+    },
+    "public/images/screenshots/pt-br/pdf.webp": {
+      "locale": "pt-br",
+      "view": "pdf",
+      "source": "Portuguese Brazil (pt-BR)/Android Phones 169/06.png",
+      "sourceSha256": "f96c839c278e32786530734b324c359aec23028f9e30a3b6eed33939060d0578",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 441318,
+      "sha256": "e0064d7c1a64d78ad0442f4e89d3762d15d95802fdac63836a71e7c109da9b33",
+      "pixelSha256": "c1d89ebc684cc6c978477c2ecbcdf3c2ab6529b206b8829cb5559b0df34cc9b3"
+    },
+    "public/images/screenshots/pt-br/cloud.webp": {
+      "locale": "pt-br",
+      "view": "cloud",
+      "source": "Portuguese Brazil (pt-BR)/Android Phones 169/07.png",
+      "sourceSha256": "e689322146524cc99b4bd64386d24e3c54d610fad68bfcd4df8844e9fc4c0c26",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 385546,
+      "sha256": "e8a00c7f16c15ae7b32f9852c70641dfedd854f84fa7f8bf199b3cc8a0a59010",
+      "pixelSha256": "d3ff5871d89bc830e47fa4047e08aa057f3a15f4e353e424389ce79a542c4736"
+    },
+    "public/images/screenshots/th/calendar.webp": {
+      "locale": "th",
+      "view": "calendar",
+      "source": "Thai (th)/Android Phones 169/02.png",
+      "sourceSha256": "655d45946839e0054cadd103e6e6fbb66e5294371b4432f684140ae5dda46f9c",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 287464,
+      "sha256": "703c897e1d47dc01c0adf324413d433cfee849fb3be8d8f0473c8a791ca1c1c4",
+      "pixelSha256": "09c98781ecbe5c39627fd15a0c6b2e062daea9c4132578663dda62ef10a47a05"
+    },
+    "public/images/screenshots/th/appointments.webp": {
+      "locale": "th",
+      "view": "appointments",
+      "source": "Thai (th)/Android Phones 169/03.png",
+      "sourceSha256": "f5e64a65a725a2383632bc4e9031ecd0ec150fa262893492c9ecacc3268ea008",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 208388,
+      "sha256": "e58dba874c30d3cf7dbac14b90301be0c36dbfd61f84b2ed234c7ac7afc0620a",
+      "pixelSha256": "e1282d6c03be2663eb158da8af5b7a55a8cef413d1d2031740da0640768a38c7"
+    },
+    "public/images/screenshots/th/reports.webp": {
+      "locale": "th",
+      "view": "reports",
+      "source": "Thai (th)/Android Phones 169/04.png",
+      "sourceSha256": "aff14b60a8bc110e31b6074118c40cd5e6094cdaf5db33df959655db96add020",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 188226,
+      "sha256": "b9125dd604a9dc2854800281cdc9f9e178989fef4275022c17cea82cb5d936c3",
+      "pixelSha256": "a57313a27d136feb51cf7e78b0fb9cb7da2d2c19938abc60ce63b852979f2590"
+    },
+    "public/images/screenshots/th/pdf.webp": {
+      "locale": "th",
+      "view": "pdf",
+      "source": "Thai (th)/Android Phones 169/06.png",
+      "sourceSha256": "397c07ff7707dd8437f895b0fb585b96d6f6bb4a0d3235e69ba2725c808650e0",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 409504,
+      "sha256": "5998477ee5899cfe6bcf965d5357a6238ba98627bfa4dbab8353cd1e98e6003f",
+      "pixelSha256": "2059cbc8db67352e1447e60cfb2589cf355a14868a1119b675e27e0f8c92d30b"
+    },
+    "public/images/screenshots/th/cloud.webp": {
+      "locale": "th",
+      "view": "cloud",
+      "source": "Thai (th)/Android Phones 169/07.png",
+      "sourceSha256": "d716a913f23c49e9e1d4060c4fbe5db283364984c2c0ac96b3ad60e5ed13a1f8",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 377740,
+      "sha256": "e985f1d4ffbf1cee10f25d9ea7204d31a3b01ebea3101801fe5baa51eb081a55",
+      "pixelSha256": "60aac7192d481bc235fb0860ab6876b3d1c2ac62cd33c09312ee800375617277"
+    },
+    "public/images/screenshots/pl/calendar.webp": {
+      "locale": "pl",
+      "view": "calendar",
+      "source": "Polish (pl-PL)/Android Phones 169/02.png",
+      "sourceSha256": "77a985ac5b3c140217a515e7ecc25dd573652809e36165337859338f1effbd76",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 304526,
+      "sha256": "e0d646edf06cf660abfd7657019c7c589954867abec57fecc0e59b4439b53f28",
+      "pixelSha256": "4e42c5b839480c84d109890665c8cfe095f275d04dae8b860a51eeaeb435894a"
+    },
+    "public/images/screenshots/pl/appointments.webp": {
+      "locale": "pl",
+      "view": "appointments",
+      "source": "Polish (pl-PL)/Android Phones 169/03.png",
+      "sourceSha256": "fef6ad48067b8dd65b52729a9bb5e9b87c5e6de544d896d82cd4d8e583aaa8bf",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 211600,
+      "sha256": "cadfb3e3acbdf61c8ffc3eae9aa65582ed00199f9f2400347537bcd8daef24b3",
+      "pixelSha256": "d80060410ef928f795e3d5b7d15373030ea4268bb45658440bd98e92daa4baba"
+    },
+    "public/images/screenshots/pl/reports.webp": {
+      "locale": "pl",
+      "view": "reports",
+      "source": "Polish (pl-PL)/Android Phones 169/04.png",
+      "sourceSha256": "16e17e7b0808af24a251c0988170bef1ab524b906dceb8661c06ff0e288f8b97",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 193676,
+      "sha256": "4765188ad9b0b6a065b8d6270dd00ee7005e8aa8860dc7615665866c33f8e1c1",
+      "pixelSha256": "b1591b672f0c73acae33a2925ea4dd5eb1b13c0eb5a8267bfa962a98cb41324d"
+    },
+    "public/images/screenshots/pl/pdf.webp": {
+      "locale": "pl",
+      "view": "pdf",
+      "source": "Polish (pl-PL)/Android Phones 169/06.png",
+      "sourceSha256": "6fa834e61a49a77bb7b20aebcb516ac4e9d67a78a971ba33ba0833c52e0da4f7",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 432248,
+      "sha256": "bda1abfd985356f4cce2a236b2f5a67ae960876cfe9e463deb38c6cbb802129f",
+      "pixelSha256": "e6ce5af78c221fa70099504cfb6c010d996da13165e5548b68d22f7cbdd8d7e7"
+    },
+    "public/images/screenshots/pl/cloud.webp": {
+      "locale": "pl",
+      "view": "cloud",
+      "source": "Polish (pl-PL)/Android Phones 169/07.png",
+      "sourceSha256": "c0caa0f65a3f07ce6273b3e621170979216b3b89481c2f293ea99e15eee7bf41",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 388528,
+      "sha256": "6430232e7946a7c0871ec253d3588ac913403a288f863200ea8b6fcba2108ca4",
+      "pixelSha256": "757cc666791939e7cbacc2c35baf5bef3cdea03c1e52e4836f7436d5b94e675e"
+    },
+    "public/images/screenshots/cs/calendar.webp": {
+      "locale": "cs",
+      "view": "calendar",
+      "source": "Czech (cs-CZ)/Android Phones 169/02.png",
+      "sourceSha256": "a47d96c6f9e1584cedaab1da1ec3905b9013a0eb2392fd245be5fd8f84d92eb3",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 313244,
+      "sha256": "8620b8da2ab56c8cb54e90ab7649b32780d17ee458f871be6c1550769b9ada11",
+      "pixelSha256": "81e1f559a742a628dc76fffec8ceccccb1a6795c0429fc9cef89f64e1123759c"
+    },
+    "public/images/screenshots/cs/appointments.webp": {
+      "locale": "cs",
+      "view": "appointments",
+      "source": "Czech (cs-CZ)/Android Phones 169/03.png",
+      "sourceSha256": "224e51b01f635d8e3595a42eb88970ade5314315d60bdd6aac0fd9f2f8215dea",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 204640,
+      "sha256": "a4a26f5ea2c7998b975db2481cb9cd0d1fb5c31206cf3a50da3a37ae44cc158d",
+      "pixelSha256": "084b6990abf04e38d8488e391b949852bb44c7cd2798a6b6be466a6fe1afccc0"
+    },
+    "public/images/screenshots/cs/reports.webp": {
+      "locale": "cs",
+      "view": "reports",
+      "source": "Czech (cs-CZ)/Android Phones 169/04.png",
+      "sourceSha256": "2fa528990071ca55fc48d8ed625dd4225f120eea6e5af26d1bc3cb419c53a6a2",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 185420,
+      "sha256": "2cb1b4fab2f270397f8456a6dc552e3207b605c199be35a133604be4791582f7",
+      "pixelSha256": "c3ebef1e1715c862940f1f7e54535e8eef06ed4b7dc26e153495c0a750e85c7b"
+    },
+    "public/images/screenshots/cs/pdf.webp": {
+      "locale": "cs",
+      "view": "pdf",
+      "source": "Czech (cs-CZ)/Android Phones 169/06.png",
+      "sourceSha256": "46779be35087c8b0cf41bf839242f577db347f93beceb4d266cfde6caa4ff55e",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 401344,
+      "sha256": "788b0cf0d47e7db66db850047f7ce6ee1111c5982b697ff25b6316c86ea6de25",
+      "pixelSha256": "93790bd1e36570ecaa01d1f64656940ea4974390904ed4fc8cad1d78dfb9861e"
+    },
+    "public/images/screenshots/cs/cloud.webp": {
+      "locale": "cs",
+      "view": "cloud",
+      "source": "Czech (cs-CZ)/Android Phones 169/07.png",
+      "sourceSha256": "d3a347d468ac88329863b679a817e292ebe4038f9a85f1601c21743ec7d6b2e8",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 393174,
+      "sha256": "1a2faa60aed436226b507f33407a306c44391aa1a39c5e7a6c55c6b05890702c",
+      "pixelSha256": "fc9e424125c9564282974d465d55e73d069de9b2c00f6cc98b09ec9a9a34acd8"
+    },
+    "public/images/screenshots/hi/calendar.webp": {
+      "locale": "hi",
+      "view": "calendar",
+      "source": "Hindi (hi-IN)/Android Phones 169/02.png",
+      "sourceSha256": "155aafeef032bd52b23bc5d7b2336ab795aa88245cf441195322be20d9b20b4f",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 288840,
+      "sha256": "db06fd98576fb6adc9469703676b4b23e58f6f608d5000d9faaab0a4667e560d",
+      "pixelSha256": "4342f262b45b97f801f8c1ecf63470dde70bb6ad0152e7a604d31e2231796285"
+    },
+    "public/images/screenshots/hi/appointments.webp": {
+      "locale": "hi",
+      "view": "appointments",
+      "source": "Hindi (hi-IN)/Android Phones 169/03.png",
+      "sourceSha256": "4e3a68006b99f0c31502b72496b1618e6b0d34134bf4b6d09ad8b17d3890db36",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 214904,
+      "sha256": "b7e34d6a761adfa5b798b37e979da6c88309a3ac1a560f3523fc356426c52a48",
+      "pixelSha256": "545036c0436b1c76fdcc6a7f6ff885ca60f7379e9120b778b62554a7d5386f75"
+    },
+    "public/images/screenshots/hi/reports.webp": {
+      "locale": "hi",
+      "view": "reports",
+      "source": "Hindi (hi-IN)/Android Phones 169/04.png",
+      "sourceSha256": "83aa5d023a9253ada04ffb250ebced77874391b7de18da545bf89a5dbe011408",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 165150,
+      "sha256": "1d6201089f53a33ddb09d8c562beec93aa3051ca50f3038b6e36aa17551c87f2",
+      "pixelSha256": "a5f6380c0d43ec051658f1195a562313874fd76cfa2056a7b11a67f5790cc403"
+    },
+    "public/images/screenshots/hi/pdf.webp": {
+      "locale": "hi",
+      "view": "pdf",
+      "source": "Hindi (hi-IN)/Android Phones 169/06.png",
+      "sourceSha256": "a529561b91bb72fb468a59a52701aa2772fa4b7472c807029eec74ce5d4aa3fa",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 434524,
+      "sha256": "e8891f8aadfd8d3bf363a08598b1d1211fc336cb55ff633614f23b4e7892cab4",
+      "pixelSha256": "c7f1885ef5ed3df6e9d81ddfcf178a6c4aa70c76fcd850ea53b1c7c89c168be7"
+    },
+    "public/images/screenshots/hi/cloud.webp": {
+      "locale": "hi",
+      "view": "cloud",
+      "source": "Hindi (hi-IN)/Android Phones 169/07.png",
+      "sourceSha256": "b998e82189fda1444c5746b9accacd1e46da934e0afc383d5d6d48ffac4b1658",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 378604,
+      "sha256": "3e08367878ebb0cbda4e1f58b31424b1f0f74f91f4f0b852a0d27a588f0e1158",
+      "pixelSha256": "e6720ed4065a777fb44cf2dbcb4a087e59fbf33be3a0de8fde74b3189eaddebd"
+    },
+    "public/images/screenshots/hr/calendar.webp": {
+      "locale": "hr",
+      "view": "calendar",
+      "source": "Croatian (hr)/Android Phones 169/02.png",
+      "sourceSha256": "cd3286b7a824362e41a1e2cc0ecace7703eb86c48197dad8e7a615b72d3531ba",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 297056,
+      "sha256": "c34aa8f6ddd03853f605c90504d45543a2a37b7190259d1e06f06c61375f27af",
+      "pixelSha256": "676596995c49e08b2e115d1bdc1d39cff4817082b7ef72c3ef1e60067f5d8022"
+    },
+    "public/images/screenshots/hr/appointments.webp": {
+      "locale": "hr",
+      "view": "appointments",
+      "source": "Croatian (hr)/Android Phones 169/03.png",
+      "sourceSha256": "10948179f7a4c76c1468adfa46b91660890f0dde9874500fc2da7b5aa2bac849",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 208688,
+      "sha256": "977f2d49893d0173661065fb0c5b2ecf267623738854a80e72259946250ac1a2",
+      "pixelSha256": "643bb90e9263a07674387867609b4305667296afa053e06b14c87ac54cc86f74"
+    },
+    "public/images/screenshots/hr/reports.webp": {
+      "locale": "hr",
+      "view": "reports",
+      "source": "Croatian (hr)/Android Phones 169/04.png",
+      "sourceSha256": "b449badd476d63601087aeef9590671b2078056ab4e18365dd572f96e3b9d999",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 188410,
+      "sha256": "b43fe84cdac6866fa4a1e55e21b84c31ce7816a723205d422c0d6f448850adaf",
+      "pixelSha256": "c3e9ec2d4cbf60252544164206782208c74e5a3544059129acbbc04f13074c4e"
+    },
+    "public/images/screenshots/hr/pdf.webp": {
+      "locale": "hr",
+      "view": "pdf",
+      "source": "Croatian (hr)/Android Phones 169/06.png",
+      "sourceSha256": "f87652a707f9eec560e26fe779cee18f8a5b318856559a63dd266fa8f131a66c",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 423784,
+      "sha256": "8884067ddb38653c06a4de078160d5a74e5adc03d816a00377a2d93e69dde13a",
+      "pixelSha256": "417597be519a623b6724296c24bdb669049280f7445dfbaa5f312db62099f2dc"
+    },
+    "public/images/screenshots/hr/cloud.webp": {
+      "locale": "hr",
+      "view": "cloud",
+      "source": "Croatian (hr)/Android Phones 169/07.png",
+      "sourceSha256": "39c52dd8da8912682a24a1cb340e0c6c9c211ebf08a5446f8385e4499c0f6517",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 382662,
+      "sha256": "3ac30abcf3f5fb79aa194afa24dfeedb42a1a4d68aee5208ebafe8b54fd6eaa2",
+      "pixelSha256": "e88606fa6697fd463bd6d1d23e06bb8683231315ceef69a69363302605ca2f1e"
+    },
+    "public/images/screenshots/hu/calendar.webp": {
+      "locale": "hu",
+      "view": "calendar",
+      "source": "Hungarian (hu-HU)/Android Phones 169/02.png",
+      "sourceSha256": "f94c22ad9af313a26edc0e510490d045e7f60b24e0638ec702493e0c3aaf2ec6",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 310100,
+      "sha256": "ec2d284c9772a6e4340d937983719c58ff0a8d821a6d7a35e715bd9ab58649a2",
+      "pixelSha256": "1e166340916f657fdd1e37a61e76a23bce88f95ee910fb7f606222abd41c828d"
+    },
+    "public/images/screenshots/hu/appointments.webp": {
+      "locale": "hu",
+      "view": "appointments",
+      "source": "Hungarian (hu-HU)/Android Phones 169/03.png",
+      "sourceSha256": "357ee4914977d5deecebb1a441781c3b794fe9f3f1d6c47004a39a0aae7f5f08",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 212754,
+      "sha256": "47d45d2c26f3dd4e6ae45a688f573e680d31d029cef43fd564719e3e98edf600",
+      "pixelSha256": "1c354e1fbe830a52b37bf5e3375f4e80387aceed6419d5d0401f581fb904db7d"
+    },
+    "public/images/screenshots/hu/reports.webp": {
+      "locale": "hu",
+      "view": "reports",
+      "source": "Hungarian (hu-HU)/Android Phones 169/04.png",
+      "sourceSha256": "fc63f86c5da5476b03cd13049827d4375e709d1a83dfef80d214e0d179958df4",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 210708,
+      "sha256": "b218805d6cd5762268fcc57837465a2d6761d28e0003f200e9521eec4d36dc81",
+      "pixelSha256": "3b45888aac536c64f2b47d83e921b6be493d83780c208ea19fa4c743d70e186f"
+    },
+    "public/images/screenshots/hu/pdf.webp": {
+      "locale": "hu",
+      "view": "pdf",
+      "source": "Hungarian (hu-HU)/Android Phones 169/06.png",
+      "sourceSha256": "e96fd9d93bb4da3195f064c906d14548124d1d6096d8b7c979206460208e8f9e",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 418374,
+      "sha256": "88452aeb43a8639d08f7b846b4da27bab4471d1341dbda91038749fbeeb56bac",
+      "pixelSha256": "ec0063e543aa04e5dac1f92f1fbbb287a743a9fef5de2f07283acab85d662ca0"
+    },
+    "public/images/screenshots/hu/cloud.webp": {
+      "locale": "hu",
+      "view": "cloud",
+      "source": "Hungarian (hu-HU)/Android Phones 169/07.png",
+      "sourceSha256": "71550c8eeefc1341384970075ac1e62d5a3ded49bca091cc6aed80e8532f2ea9",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 392742,
+      "sha256": "5c0b54a226f96620ce3e26da2568905793cedf3441977410c31f6ca255051464",
+      "pixelSha256": "f1a943cb645375665f2e73870a0ef56d2f9890409d6eb51b71b1c9df746f3fcc"
+    },
+    "public/images/screenshots/ja/calendar.webp": {
+      "locale": "ja",
+      "view": "calendar",
+      "source": "Japanese (ja-JP)/Android Phones 169/02.png",
+      "sourceSha256": "54d2f22e0d0f9ed0bd69f3ac0c8fcdcc5225aacced8dba46edc99e92627c73f1",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 300088,
+      "sha256": "f793cf4674b72c80cd25f6dad3230c801f21aa61f898e64fdb5001368e714570",
+      "pixelSha256": "2908fc1e8d7a95a58f6b97e17dbf2ffc0de1c543c59b58fe5fdab6d1784585c6"
+    },
+    "public/images/screenshots/ja/appointments.webp": {
+      "locale": "ja",
+      "view": "appointments",
+      "source": "Japanese (ja-JP)/Android Phones 169/03.png",
+      "sourceSha256": "f02e8e6f65ecdbed2dcadf1e23ad75d47083340966b0db5a00d2317ff88b4425",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 205668,
+      "sha256": "06cfaf0085abf104b7f16fae6b72bd2c81fb98c2d0e37862278c74c3b9362974",
+      "pixelSha256": "aac5195046eaf990376841e71021b28728830f846fbf9c571ed31150159d05d6"
+    },
+    "public/images/screenshots/ja/reports.webp": {
+      "locale": "ja",
+      "view": "reports",
+      "source": "Japanese (ja-JP)/Android Phones 169/04.png",
+      "sourceSha256": "319bb5d62a68c71271ac19a554529ac71f43419a9d81f967310304067d3a291d",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 191236,
+      "sha256": "432a9d904156eca3b8684caddafd9375da29a8c572bd961bd1cfafea67ffdb45",
+      "pixelSha256": "801d3d81e46670adf44e724fd3445c0622111421fded9e1a15e150332d705687"
+    },
+    "public/images/screenshots/ja/pdf.webp": {
+      "locale": "ja",
+      "view": "pdf",
+      "source": "Japanese (ja-JP)/Android Phones 169/06.png",
+      "sourceSha256": "1d7396a732221062735b0908b68045ca682041812eaf402c4c46fd8190a787ac",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 396540,
+      "sha256": "d78449d0d5441f924aa04826f85e140838f4447d6d3f56a8a375f04ae7a1b6b3",
+      "pixelSha256": "8d46e149480c6517e388d36a2590fc2c7d68af3b763cf112ef0f6bc82635a5cb"
+    },
+    "public/images/screenshots/ja/cloud.webp": {
+      "locale": "ja",
+      "view": "cloud",
+      "source": "Japanese (ja-JP)/Android Phones 169/07.png",
+      "sourceSha256": "e378b5e462e17b44ef9d4bf049bf20dbfb308bdb6c225fbcef2c7a7d5f18ef24",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 384784,
+      "sha256": "b27bd52be992e2830a3aa2dda7991a403815e4059d40fd73cba08bdfd606e3c8",
+      "pixelSha256": "c8612722a732598a4a6e41575774955c7b8ab6170457166b33851e8e42a94b2b"
+    },
+    "public/images/screenshots/ko/calendar.webp": {
+      "locale": "ko",
+      "view": "calendar",
+      "source": "Korean (ko-KR)/Android Phones 169/02.png",
+      "sourceSha256": "ddc076529a794e974129af49544eed6ae872dc64a3b44d03964457e7a2104975",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 274250,
+      "sha256": "c1c568f5859e637fe919be6305d353a1308f7b8ceecb1dd1cd425ec869232ed3",
+      "pixelSha256": "84692f1bac6f7dd7cd0b82745740d8a3dd317e8f7b1c9fe3d6d019a8167a5268"
+    },
+    "public/images/screenshots/ko/appointments.webp": {
+      "locale": "ko",
+      "view": "appointments",
+      "source": "Korean (ko-KR)/Android Phones 169/03.png",
+      "sourceSha256": "81ab71fbbb802bd9f01f6d93dc0e7604db749cc8910df4f7ff14a6dc74c6b40a",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 202214,
+      "sha256": "58dc9a57e343f0eb03b464b99b6466e8f2b00fd4efcf68b67a177f5219a44285",
+      "pixelSha256": "f8afe4adeff24c2b79b9a86a9d69febe2bf6c1e148ba5fd5fa43c2d8bb52d9f9"
+    },
+    "public/images/screenshots/ko/reports.webp": {
+      "locale": "ko",
+      "view": "reports",
+      "source": "Korean (ko-KR)/Android Phones 169/04.png",
+      "sourceSha256": "071903860d006864348a510ffa4a295229e5d814a2459e333571c13c43cc2eb3",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 159690,
+      "sha256": "fbba6c064da9b3e1e9af14e302eb8941025804c45441c48af51ccb45a4a9f553",
+      "pixelSha256": "82ba3a24508d70b4fbf2bed5a9899fc4c8ed02ef1acb7175b9d39a1a54a67ac2"
+    },
+    "public/images/screenshots/ko/pdf.webp": {
+      "locale": "ko",
+      "view": "pdf",
+      "source": "Korean (ko-KR)/Android Phones 169/06.png",
+      "sourceSha256": "fd1f5076719618e73f076b4f24bd74bbacf067a5b1c9366e0ce445ecf6323faa",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 419614,
+      "sha256": "11dbe97e2f6e2d56ebb63388568b63d78786ebecfde3f5aacd0683f9851117a9",
+      "pixelSha256": "f1e06ab3e1cb7ac21b86867b01ba0f924e36d0340b5099c6100968487d4af8c2"
+    },
+    "public/images/screenshots/ko/cloud.webp": {
+      "locale": "ko",
+      "view": "cloud",
+      "source": "Korean (ko-KR)/Android Phones 169/07.png",
+      "sourceSha256": "3fc33767e35694e21bcf45cc5e4bc05c1b9958a8ce52a4c039cb5c9ce51e196a",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 371248,
+      "sha256": "48d2176a21ddc988c1d999b158631f1bc0ec86f3053489c6e1db60a9d7b409ab",
+      "pixelSha256": "953178e9ba060f1a2b35471669c75b8ff31c70559f2a32365994672765daa1c0"
+    },
+    "public/images/screenshots/ro/calendar.webp": {
+      "locale": "ro",
+      "view": "calendar",
+      "source": "Romanian (ro)/Android Phones 169/02.png",
+      "sourceSha256": "5eae04952be5dfae5a5e03a042299c56534fe89729d1b229d2e750f11c3d7a7b",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 314194,
+      "sha256": "433e3f2e63addc29c564f51040024cd882e429cb96e0d55f9ca9c5ac1b4403e5",
+      "pixelSha256": "6795fcaf527da84c2b5004387339608ec28da3f2397f36670aab969ccfbcec01"
+    },
+    "public/images/screenshots/ro/appointments.webp": {
+      "locale": "ro",
+      "view": "appointments",
+      "source": "Romanian (ro)/Android Phones 169/03.png",
+      "sourceSha256": "db1b10c12e2fbec221c2dafa30c6d38b482c60f7e8ec8e8858df4fa35f054160",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 210026,
+      "sha256": "0347da0fb0ff7eb58044da250d544b08e5a0e1a4d29e01de12dcd1f3ad11e1bf",
+      "pixelSha256": "e6838b0f19b9815f23f8ffdf56eab954bac480528073816cc80c4e0f202a20cf"
+    },
+    "public/images/screenshots/ro/reports.webp": {
+      "locale": "ro",
+      "view": "reports",
+      "source": "Romanian (ro)/Android Phones 169/04.png",
+      "sourceSha256": "7174215b50c590cabc1d0f404b7b2840dd87fd230b153f58d3e6adcda3440a15",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 192160,
+      "sha256": "73f45890d9d3aef82567cb415d2675b4f81bfb771a0e2ad18a29a7923754da93",
+      "pixelSha256": "dda029d3606e9e28d98c465c74c53b29c348aab8763a489d510daf822c64d882"
+    },
+    "public/images/screenshots/ro/pdf.webp": {
+      "locale": "ro",
+      "view": "pdf",
+      "source": "Romanian (ro)/Android Phones 169/06.png",
+      "sourceSha256": "096cb56499581c2f886ff5511786d3a2fb214ef6561075b6a9c59fe8442e912a",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 424182,
+      "sha256": "7b49ff8940728f871d54e21526d395041b43cb12eb600346b2ec5fb37eeedbe6",
+      "pixelSha256": "2f4b71bfefecee3c89709d59076e66ce4f6753df82fb12fe28d386cb4891f67f"
+    },
+    "public/images/screenshots/ro/cloud.webp": {
+      "locale": "ro",
+      "view": "cloud",
+      "source": "Romanian (ro)/Android Phones 169/07.png",
+      "sourceSha256": "f30bba772fb646c669a7728f0cd37459fdb93df78eb447976a9086cb4032b48e",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 396982,
+      "sha256": "2c9636385c1eaf760e1b2213a03a1ccccb974d90019bb1f6cd0493ee9be45148",
+      "pixelSha256": "5b8c4477f1ad50f394ba7acc37d3fb634d19703815a3eb517207df5ae2aec811"
+    },
+    "public/images/screenshots/ru/calendar.webp": {
+      "locale": "ru",
+      "view": "calendar",
+      "source": "Russian (ru-RU)/Android Phones 169/02.png",
+      "sourceSha256": "f683763de436fdb754d415859a96ff248eab75b8a36f370e32a1fce02b593059",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 319340,
+      "sha256": "6c530c2ffd2884f19e88f3d86ebfd0fb4f5f269f70e9bd8393742199ff9f933e",
+      "pixelSha256": "185d2f5498a6f234ecca5ac5fcc02b48e25103faaa3607ea458febb720a9b3da"
+    },
+    "public/images/screenshots/ru/appointments.webp": {
+      "locale": "ru",
+      "view": "appointments",
+      "source": "Russian (ru-RU)/Android Phones 169/03.png",
+      "sourceSha256": "f44b8f4400fc5495386d8a7a18a7d71e98d4474b900a025d1161e1960d1e2d0e",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 205064,
+      "sha256": "979306cd1aac30678eb55faafcf3c6cabc5519d3d9b49cc9b7f6ae9682777322",
+      "pixelSha256": "8aa7b00338dd2798b358daf823a00c27993c0cd49a29d296890dcb08b1b063d0"
+    },
+    "public/images/screenshots/ru/reports.webp": {
+      "locale": "ru",
+      "view": "reports",
+      "source": "Russian (ru-RU)/Android Phones 169/04.png",
+      "sourceSha256": "fe4f6c54cab01d0f10078b4b7136e4e1df373ec560e56960843c79fd4f198c2a",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 172808,
+      "sha256": "604e4a1b1868b9277e26e5bf03cdeb2152d53770e8c62c917afc1c97d56d8ad1",
+      "pixelSha256": "c56af8c64e07491373b442b4c0ccd7002684b7f0780372d52b5edaabf6b69b13"
+    },
+    "public/images/screenshots/ru/pdf.webp": {
+      "locale": "ru",
+      "view": "pdf",
+      "source": "Russian (ru-RU)/Android Phones 169/06.png",
+      "sourceSha256": "5415c3310fbc24f2c51961031195954cf9169bba9b75e4fe03e481d6a669870b",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 423282,
+      "sha256": "f32b0edace71fbc741ec6bd468a8e55b72dfaed2658633b1f2f477fbcc826945",
+      "pixelSha256": "8b29360e3ddf4466eafe93b8fe1283526caf2c110e4ad5c0dc325d2a05e8986d"
+    },
+    "public/images/screenshots/ru/cloud.webp": {
+      "locale": "ru",
+      "view": "cloud",
+      "source": "Russian (ru-RU)/Android Phones 169/07.png",
+      "sourceSha256": "f18afc8cb5861be2a1c264d01629e5d13e821af5345eab7102871ded89b1d471",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 400606,
+      "sha256": "61c2844b3077852e8cd1dc5a41f37f5656b5634f8bbe5d57829bb0b14e10e98b",
+      "pixelSha256": "8fe1acb0c268678921c212b3c4103bdf6ccc8f8b3c958598c4820cf56d72c381"
+    },
+    "public/images/screenshots/sk/calendar.webp": {
+      "locale": "sk",
+      "view": "calendar",
+      "source": "Slovak (sk)/Android Phones 169/02.png",
+      "sourceSha256": "f6268aa2b3b8c0fa8762ef2bbb5a5e14c968ada6651ab06b13f036fce7ef0a9a",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 309426,
+      "sha256": "d70b4e5d283420b6bf3226bd04e18d63061c951365ee8289d5fc657a83948d2f",
+      "pixelSha256": "63413b9334c45670dd84e1dfc27ae1b862e35ff547fb2dd0b5fd9b865d9d2f00"
+    },
+    "public/images/screenshots/sk/appointments.webp": {
+      "locale": "sk",
+      "view": "appointments",
+      "source": "Slovak (sk)/Android Phones 169/03.png",
+      "sourceSha256": "ee34a52956313d87914808c8b0b3f01bbd743f649ac9eb715ee47a0bddebd54a",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 208608,
+      "sha256": "8eca41492cac0a2f664f74cc9bc96ef2e6ded00ec290727a7cb9e3a9bb82afd1",
+      "pixelSha256": "160820e12f14a01759aaac3e822ef0f6a0d41b9330184be9b3ccdaf16103cecd"
+    },
+    "public/images/screenshots/sk/reports.webp": {
+      "locale": "sk",
+      "view": "reports",
+      "source": "Slovak (sk)/Android Phones 169/04.png",
+      "sourceSha256": "c4180dd0961a81fa58a9126d28e6f53cbc7576ace48caecda41fc0caac0a27dd",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 183644,
+      "sha256": "771f2c66d42b6a0d3416105bbdbaef1113d72a9a73ad36d9e2f3d7a7c5266c1e",
+      "pixelSha256": "3b1a30abb30a08fd3b4574e55c92ed391a7a304f0f50fefd33e86095634558da"
+    },
+    "public/images/screenshots/sk/pdf.webp": {
+      "locale": "sk",
+      "view": "pdf",
+      "source": "Slovak (sk)/Android Phones 169/06.png",
+      "sourceSha256": "fd43c69e05f5d849b0b8757616836cdf326bd41ef27fe80ab0bea2027b755d1f",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 404576,
+      "sha256": "719c5392b3a69e849bbcbb0a8dcf53cc192b00e743f8823552049ec6900704cd",
+      "pixelSha256": "adf139381252e363827a3bc51fc0cca90e82fecffbccdd9652df85631dedab8a"
+    },
+    "public/images/screenshots/sk/cloud.webp": {
+      "locale": "sk",
+      "view": "cloud",
+      "source": "Slovak (sk)/Android Phones 169/07.png",
+      "sourceSha256": "2542e057926bd9d395ed79ce0bf8cfacc860de75b1ae3cb93172f6970a31bbdb",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 392984,
+      "sha256": "4594fb2b75a130a117beb8b7e888150ea3407dc7d243f9f7c0aebfd13e35cc8e",
+      "pixelSha256": "22468be656662c6acc9ef1cea88d30a9b71f5a219d62813abea4288877ddd3ef"
+    },
+    "public/images/screenshots/sv/calendar.webp": {
+      "locale": "sv",
+      "view": "calendar",
+      "source": "Swedish (sv-SE)/Android Phones 169/02.png",
+      "sourceSha256": "13ae77a16c7d8f592df1ecdd728ee30ed417402788cb17f6405aeb6acb03251c",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 286178,
+      "sha256": "111a23d41b3adb1a57ad010fa4d064e5d87fd61d7896105efb95f99dc5e03ebb",
+      "pixelSha256": "e531df7f1cde5aca0cbef92c1aa2bd6aa7568422f6477cd6108a6e30d84858a4"
+    },
+    "public/images/screenshots/sv/appointments.webp": {
+      "locale": "sv",
+      "view": "appointments",
+      "source": "Swedish (sv-SE)/Android Phones 169/03.png",
+      "sourceSha256": "55905dc0e2443aa5a4f3cbf039d10f520e56f4e3dc36825b067cf595e4b471c4",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 211892,
+      "sha256": "164eeb26406ebc9ed0442710b8966cf42a1e05751a89b06053bb874c2a6c0dbd",
+      "pixelSha256": "4d97043173a8612c853746c6f3938a7aa0eef1d9c31c2d5fe6d50849b98b4791"
+    },
+    "public/images/screenshots/sv/reports.webp": {
+      "locale": "sv",
+      "view": "reports",
+      "source": "Swedish (sv-SE)/Android Phones 169/04.png",
+      "sourceSha256": "eb70f09b1ca120381fc9b109679e45f2ffaea922abd33d03b37a916938f8b014",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 176256,
+      "sha256": "d5cd6e6d72170da95cbeb6bda943e8d0624e769a575087503da7ea7efa8083d8",
+      "pixelSha256": "307dce0b2764cb369845d93261432d169eca0c984ad8599ee8cfc68e3404065c"
+    },
+    "public/images/screenshots/sv/pdf.webp": {
+      "locale": "sv",
+      "view": "pdf",
+      "source": "Swedish (sv-SE)/Android Phones 169/06.png",
+      "sourceSha256": "22374b5922dd6fddd780b0c3b4fad3e2ec56756fa3535fe1ec7fa42b72e2d3cf",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 419308,
+      "sha256": "2949f89141bb68d224ac4799c0435c27add5393638690c2a056bfb04cd4a4845",
+      "pixelSha256": "0abd86bbd4f3362fc937634327d565142efa38490c44cb5b0fbbe5dc17d45f89"
+    },
+    "public/images/screenshots/sv/cloud.webp": {
+      "locale": "sv",
+      "view": "cloud",
+      "source": "Swedish (sv-SE)/Android Phones 169/07.png",
+      "sourceSha256": "f94bc599f2d79b89f94b58c4d2583269c73593dd3c9af0aaf61d8aa9b76904a2",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 377860,
+      "sha256": "4ad3e8c79aa137f25ee509f45b39c71bf6315c747b93bfd19969954386278792",
+      "pixelSha256": "b03b44235442b06bc8d96c209f0e71f9201fae3305bc24af075e5bb91edf0682"
+    },
+    "public/images/screenshots/tr/calendar.webp": {
+      "locale": "tr",
+      "view": "calendar",
+      "source": "Turkish (tr-TR)/Android Phones 169/02.png",
+      "sourceSha256": "b9320acb92e2db46fd2a741ca272b46e0b91bded1866614325da5191ea92d847",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 291042,
+      "sha256": "aadca30dfa5f540f47be68c852cf7f3794e7b9c8fd2c0bfb7575ec11b0117ffa",
+      "pixelSha256": "904dbc79885b9825eb76e69d3c0433d148ce6add8fd5a333c8c87f08409baf81"
+    },
+    "public/images/screenshots/tr/appointments.webp": {
+      "locale": "tr",
+      "view": "appointments",
+      "source": "Turkish (tr-TR)/Android Phones 169/03.png",
+      "sourceSha256": "215c68253be76c06b6a2ad1990a24da860b62c0dbbd59902dc2755ed60a24855",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 206764,
+      "sha256": "ece83c1126de8c77311740fda7ac109891c18531c3749697cb6698ce8f9c24b3",
+      "pixelSha256": "1cfd31f151a1be2f13d42b1cd441bdfc49f88786373a8d4bdfdd2146759e28e2"
+    },
+    "public/images/screenshots/tr/reports.webp": {
+      "locale": "tr",
+      "view": "reports",
+      "source": "Turkish (tr-TR)/Android Phones 169/04.png",
+      "sourceSha256": "d2476009eda30280eb90ef54c8335f306ff226008ee9d5bdf107d7e9c4324ced",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 188016,
+      "sha256": "ed87fbe309f6f2ab8d18e01c6f88bb277f4f8523a55dea29366db37a24ec87ac",
+      "pixelSha256": "c0a5d8b76eabfbf2e3464ef61a1ebd8cb50bdf2dbb34e2a68845d081b4b3af26"
+    },
+    "public/images/screenshots/tr/pdf.webp": {
+      "locale": "tr",
+      "view": "pdf",
+      "source": "Turkish (tr-TR)/Android Phones 169/06.png",
+      "sourceSha256": "02ff35099c79a7ab6accde3bfc0272a79ab81c943ed6033baa04f71c15f64483",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 430788,
+      "sha256": "e933b7a4f66cac9bb333c58e7b909f65c8da5e83be3af55e09a93a50251e7310",
+      "pixelSha256": "4853a6dde7738840afd0aaf43702c40788fef4acbc5f614f09f7b8a24f631364"
+    },
+    "public/images/screenshots/tr/cloud.webp": {
+      "locale": "tr",
+      "view": "cloud",
+      "source": "Turkish (tr-TR)/Android Phones 169/07.png",
+      "sourceSha256": "fcb9714db8c45b5663340dcd731407893dd13feee9b1bbf68eeb3fcea4d9877e",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 376080,
+      "sha256": "ed8c50d39146dbedb58c4782e6d690462fb9240d5af0ce33334bc2a7d8d1ebf8",
+      "pixelSha256": "59e1292a3c576ce10395a8ffa2d062e3dbfca4341f493af8c7616e33bb8b3da5"
+    },
+    "public/images/screenshots/id/calendar.webp": {
+      "locale": "id",
+      "view": "calendar",
+      "source": "Indonesian (id)/Android Phones 169/02.png",
+      "sourceSha256": "c643de94ec67e8c50cf6cfc48bd0795459e90671dd23e6dbe2c77f116f59eae1",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 301464,
+      "sha256": "8be675e0440e48105d5d71dfb6ba5166489ebbb01472d9b83bd68a4b9950b445",
+      "pixelSha256": "a553c42f3d285ae5f6a86018595a86b9f76498dcc1a7a8e6f2a0b67f4ce5b92b"
+    },
+    "public/images/screenshots/id/appointments.webp": {
+      "locale": "id",
+      "view": "appointments",
+      "source": "Indonesian (id)/Android Phones 169/03.png",
+      "sourceSha256": "104749ab3bac38c6469d32dbb4a730b489e2b78869572f817d9b13010549e5b9",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 217024,
+      "sha256": "0cbc23d365572ce3e00f04e04012f85959a637abdc954c446b50396f36708775",
+      "pixelSha256": "d0f226dca0af36a63544f4a21d7d5e4db38607c46ce2238dd0811335360a783c"
+    },
+    "public/images/screenshots/id/reports.webp": {
+      "locale": "id",
+      "view": "reports",
+      "source": "Indonesian (id)/Android Phones 169/04.png",
+      "sourceSha256": "31b4f8088cfd1943e6415978fa2c7fa42dd8dd71a20eb565c5c3aa45bd3fefd1",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 179486,
+      "sha256": "90a0aaebb88a36e31427df985fb1efa6cbd994e5d97e67c1aa030c43ef7b851d",
+      "pixelSha256": "c71c62f9dd20b4b29908a59ed947de4e0ff8f699fb481662cfd8d28f7f20a670"
+    },
+    "public/images/screenshots/id/pdf.webp": {
+      "locale": "id",
+      "view": "pdf",
+      "source": "Indonesian (id)/Android Phones 169/06.png",
+      "sourceSha256": "03fe4a7b603fd13c2d5c6ac97170c7c1b924e60c4780d1927f7da3e6559a0a58",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 424888,
+      "sha256": "bfa8651ec20287220458c489e2f09bed4352e87b34145e1608acc49887b19877",
+      "pixelSha256": "eeb3ebfe19dea1de46dce32b62995868b2e322382549c38aded86dfab23ff395"
+    },
+    "public/images/screenshots/id/cloud.webp": {
+      "locale": "id",
+      "view": "cloud",
+      "source": "Indonesian (id)/Android Phones 169/07.png",
+      "sourceSha256": "72622c0f94bd2ed4d4fb5660f97721ef1bd80faa064fdb641085070c18e868c3",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 386360,
+      "sha256": "9bf5b597157b5fb3537d02298edee7c2b3b80ee7b941c1d07f80a66bccc2d988",
+      "pixelSha256": "cc9e354cc2aad3ecda8f7c5b38801e9836c7a29a9621f3fef06b99cb3cfc8c66"
+    },
+    "public/images/screenshots/nb/calendar.webp": {
+      "locale": "nb",
+      "view": "calendar",
+      "source": "Norwegian (no-NO)/Android Phones 169/02.png",
+      "sourceSha256": "52a7749a8ab2ce936a6c30baf1af0996317a63840ae2ac7b72c95aeffddbb6dd",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 285330,
+      "sha256": "5cfcc3be26003058d77b5db9c458c8704c81ed970b674c449d20065b308e3c74",
+      "pixelSha256": "bf347cf3cf02012024761d6dd32783c417e91317ea4f5e7e7319180dea444fcc"
+    },
+    "public/images/screenshots/nb/appointments.webp": {
+      "locale": "nb",
+      "view": "appointments",
+      "source": "Norwegian (no-NO)/Android Phones 169/03.png",
+      "sourceSha256": "7dec1eaddd4a10c0318f1f0f678a47e9ce3c963a32f4e82bffcd76329fcfc5db",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 209592,
+      "sha256": "2d389485e84d66f7dd9b93d661fffc91dcc01838c781d897603a1c9c51d51490",
+      "pixelSha256": "47d03b2c567382f44ef09a3d300d47ac446198d1ed477fa07e9dc5b1cda84e71"
+    },
+    "public/images/screenshots/nb/reports.webp": {
+      "locale": "nb",
+      "view": "reports",
+      "source": "Norwegian (no-NO)/Android Phones 169/04.png",
+      "sourceSha256": "25eeadf1c8509faa0908c42821d9eb5b5c328e6a59296185d607300f79c1f037",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 179898,
+      "sha256": "6199fc31fbe2c4d021c2dba1c23d64492090b2cf48e91eef16e9ce276d05ea8d",
+      "pixelSha256": "c91277da53368e4eeff3514e08273c8963bf63d7960b5bf5b7d5e0a88f278a77"
+    },
+    "public/images/screenshots/nb/pdf.webp": {
+      "locale": "nb",
+      "view": "pdf",
+      "source": "Norwegian (no-NO)/Android Phones 169/06.png",
+      "sourceSha256": "477ad92f1c56242a88d55c33eb3e9de90bd74f6067ed9d1fc7344dcb160b88eb",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 420418,
+      "sha256": "fe3cc1221aa97babfe1f9ef825e59b9802337164c3c9472b316a0ae49d33d238",
+      "pixelSha256": "8b4bec78f5e37c093426c958a9dca2feb5b176ffbce074bf66f62fcb39a2b194"
+    },
+    "public/images/screenshots/nb/cloud.webp": {
+      "locale": "nb",
+      "view": "cloud",
+      "source": "Norwegian (no-NO)/Android Phones 169/07.png",
+      "sourceSha256": "75cf15954412a488a5902b2fc44e26769e28e18f31c7374d6f710d5ae129f79f",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 373234,
+      "sha256": "f06edd3f7415ab2ab071a108cca7d93f080f78757e70a17daddceab75a64fbd6",
+      "pixelSha256": "e1118d59995ef67d6a1a4a9d46d94d49e395250f0504785e1f88d0fe8456a526"
+    },
+    "public/images/screenshots/nl/calendar.webp": {
+      "locale": "nl",
+      "view": "calendar",
+      "source": "Dutch (nl-NL)/Android Phones 169/02.png",
+      "sourceSha256": "5c9437bfbfa17a241fabb25f8223601716831befc8d07c68d983d8c3ffdef14a",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 295792,
+      "sha256": "2ec77fd81a3bf65967907c80803d5591c6e90f1c0b1ab9025bb50eaf8abba09a",
+      "pixelSha256": "b4dad35cd68507b88c338b84a0b72a9de62d57f014121d853841276414b1dc01"
+    },
+    "public/images/screenshots/nl/appointments.webp": {
+      "locale": "nl",
+      "view": "appointments",
+      "source": "Dutch (nl-NL)/Android Phones 169/03.png",
+      "sourceSha256": "fc4000fb066fd9a66b5eae18802b8aa2768f20ce32b02bc20524e1bca42cb1dd",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 210348,
+      "sha256": "bb46317b1828f55c1916647efd4e0e122781ec1bf0dfea2c54b8585d9ced50a4",
+      "pixelSha256": "6735cef8b51139c6b18194588a95e7aadb815c2a14789b81d1c71d873835171d"
+    },
+    "public/images/screenshots/nl/reports.webp": {
+      "locale": "nl",
+      "view": "reports",
+      "source": "Dutch (nl-NL)/Android Phones 169/04.png",
+      "sourceSha256": "d91de4ec0286dba6023d6746b98eb3645ffa505644d3aa771d4512803b6bd60c",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 183340,
+      "sha256": "b358b88c43051efaa7720317e3cd452a9989b3dbb9fce6022268a25216631fc9",
+      "pixelSha256": "1a543823476f54bbaaeb8abe60a6fe0ba28f1f79c2bac7e22dbf1543961420df"
+    },
+    "public/images/screenshots/nl/pdf.webp": {
+      "locale": "nl",
+      "view": "pdf",
+      "source": "Dutch (nl-NL)/Android Phones 169/06.png",
+      "sourceSha256": "94dbe2c080af16a4affdeffa5adb9bfe62fa369c2623cba2f64a55a31e9ec1ba",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 414354,
+      "sha256": "cc412b198f6f374c061fa53e7dec4c076bb36e00fb2c385fda43c435c7a67427",
+      "pixelSha256": "96c328fd8cc3246c4bffaccac1b6b2ae2c247219a81d495b44ce1f73875582b8"
+    },
+    "public/images/screenshots/nl/cloud.webp": {
+      "locale": "nl",
+      "view": "cloud",
+      "source": "Dutch (nl-NL)/Android Phones 169/07.png",
+      "sourceSha256": "9af8bee4dd44678fe8a2485e101c6c4a42848c99000ee2b2bf859dd8b326bf65",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 380390,
+      "sha256": "0dfc01aeb07f29d023c662fab2a026d3578b295e2f82b3aee931fdc920ac1da7",
+      "pixelSha256": "47c7ba4c627b90474803d89d1976aadfdb172c270b2eb03618fbf020b37753a1"
+    },
+    "public/images/screenshots/bg/calendar.webp": {
+      "locale": "bg",
+      "view": "calendar",
+      "source": "Bulgarian (bg)/Android Phones 169/02.png",
+      "sourceSha256": "52c6d30a3b176d4e8dd9672b9a12f8595ad3aaaf620d8ecb2bbb29b1e8f87a2d",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 303418,
+      "sha256": "826016f874e3aa9ad233b7c3ebecca643b3ec007541855699bece0df0f6a5527",
+      "pixelSha256": "06837d6e8422859ed8df369d3d1369df63a98d9142f4ef99591c9f32edfb75a3"
+    },
+    "public/images/screenshots/bg/appointments.webp": {
+      "locale": "bg",
+      "view": "appointments",
+      "source": "Bulgarian (bg)/Android Phones 169/03.png",
+      "sourceSha256": "0134c040b70851e2e7d543b947be5ea1777a93a2fedadba407ba9eb0a6bd09e6",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 204010,
+      "sha256": "ba30225c34a5d22900df6aa57fac2d3515d5ae412f487fb63b8dc99b58b492c3",
+      "pixelSha256": "9cbf543a3d9f41ac474109856a00da3f63c23bf29c2143f1df01bf892c7a8eb9"
+    },
+    "public/images/screenshots/bg/reports.webp": {
+      "locale": "bg",
+      "view": "reports",
+      "source": "Bulgarian (bg)/Android Phones 169/04.png",
+      "sourceSha256": "a036d1aba70694b14deb5f83e7a91cf1960245835f549f05a76fc21904646fe7",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 174798,
+      "sha256": "ee368de181ce183d9eeeb39ee08f0ebdbc47bcdde0340c9f260cadcaa542c8bc",
+      "pixelSha256": "b4eeb9ffa457a45bb848f98596287ac459b97a89aa595d8b9f4aa1f3d555a9c3"
+    },
+    "public/images/screenshots/bg/pdf.webp": {
+      "locale": "bg",
+      "view": "pdf",
+      "source": "Bulgarian (bg)/Android Phones 169/06.png",
+      "sourceSha256": "22eedae8d9904238b1a0fad8a41dfb145c29d8539f057e239f447b862ebe69aa",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 405366,
+      "sha256": "95962800bc010d0ced44b15fafe343eb4d7db85725da2312946ffc0ce78def12",
+      "pixelSha256": "b17f608070fdc5f5f9f2ac7e376889ef6e443267a51d61bed319809685415d9e"
+    },
+    "public/images/screenshots/bg/cloud.webp": {
+      "locale": "bg",
+      "view": "cloud",
+      "source": "Bulgarian (bg)/Android Phones 169/07.png",
+      "sourceSha256": "5642851e2f7ab1c923762466a95cf2ec917728276350aca0a2ead57e33f16ab2",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 387580,
+      "sha256": "688703a6c9630db6c4983ee6943fc78d1677905adcc2481d4dfd841ce762c0e5",
+      "pixelSha256": "1b0520be71f3bf92bf7b44c25ff3335897f3d9324f5009514922b660cf1ec644"
+    },
+    "public/images/screenshots/bn/calendar.webp": {
+      "locale": "bn",
+      "view": "calendar",
+      "source": "Bangla (bn-BD)/Android Phones 169/02.png",
+      "sourceSha256": "6a1d556410457bb0a829c21e8ab6bd579c94cee8290f3b30896e46df049abf87",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 290762,
+      "sha256": "255e1f60b5b1a471655374631e6d7615a6e93f613f16a9389e72f6f19e61a72f",
+      "pixelSha256": "0ff09223b566f4f95f927eaa81a26a9463e2a88468df72348e1875868a5704ee"
+    },
+    "public/images/screenshots/bn/appointments.webp": {
+      "locale": "bn",
+      "view": "appointments",
+      "source": "Bangla (bn-BD)/Android Phones 169/03.png",
+      "sourceSha256": "0e124ac485377c2961b5e844489796795fc86369a4402b97d831584389665d8f",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 214432,
+      "sha256": "a0169e5e70f2044fa84d19a898d0612b829dfed0992e4905d8816f2c87982efc",
+      "pixelSha256": "fac183ce53c8d6e0cc5c0983ec48e901c7a48bbbf96960d86bc8f6420190f211"
+    },
+    "public/images/screenshots/bn/reports.webp": {
+      "locale": "bn",
+      "view": "reports",
+      "source": "Bangla (bn-BD)/Android Phones 169/05.png",
+      "sourceSha256": "35ed5d5e62ab956160e73f696e0a81689fc1e9d50350a05d0db218b0a2ab331c",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 186268,
+      "sha256": "8228024dcfc0e8725171364ee94d4b39d113a899e33ecb3f730346fb95eadb0f",
+      "pixelSha256": "2485f87b581d79e7872fb5808fe310fe132082b35b8255d0b6ad4853a50f93fa"
+    },
+    "public/images/screenshots/bn/pdf.webp": {
+      "locale": "bn",
+      "view": "pdf",
+      "source": "Bangla (bn-BD)/Android Phones 169/06.png",
+      "sourceSha256": "6f3fe386549cf715a2697391b56d46812e35af6c22b9bdae7c014cb9102dd5df",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 413654,
+      "sha256": "6509428072336296687925f4212c8d48dd8d5153bd99d09cb0fabfb5da75a7c2",
+      "pixelSha256": "0dd06bfb986f486b1beb30aa433db31e105a55ca45b2fffb2b077440183a9de8"
+    },
+    "public/images/screenshots/bn/cloud.webp": {
+      "locale": "bn",
+      "view": "cloud",
+      "source": "Bangla (bn-BD)/Android Phones 169/07.png",
+      "sourceSha256": "7893b402e6edd4cbb9229aa6069ddb4462bb0cc6fb16213a55d98955e9593138",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 372770,
+      "sha256": "ef49c39f52abf32549123ea523c2e795881d79b627b0e6808b8e687dacaa07bc",
+      "pixelSha256": "57d1c8406d2cc35246903e005f6629da7662f2e6196c50912e2ef1c561df9283"
+    },
+    "public/images/screenshots/uk/calendar.webp": {
+      "locale": "uk",
+      "view": "calendar",
+      "source": "Ukrainian (uk)/Android Phones 169/02.png",
+      "sourceSha256": "197d8aee1b71a4285153fa7885dde4af519f791f76d07e0aa2015393c4656063",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 291810,
+      "sha256": "6d5228bbc9e825922d9412aafa01981e6707386849c8fce4565357d4d5f1e142",
+      "pixelSha256": "7937ef137b8d6ef746584fa9dd5171efe70755b6bc4d431cde852341cc21ea23"
+    },
+    "public/images/screenshots/uk/appointments.webp": {
+      "locale": "uk",
+      "view": "appointments",
+      "source": "Ukrainian (uk)/Android Phones 169/03.png",
+      "sourceSha256": "78733d9708047bf11b0522c7b5674d03568b7dc352ac9b2a945e56b9e582e205",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 201956,
+      "sha256": "665983a0f9fa7ee2198e3c89090224c155b1de15161d60355ee215abc1ca2b31",
+      "pixelSha256": "9f415d6b8610763b31c4ba5c3d43f669bc114c39887044da55f8b5b26d2985c5"
+    },
+    "public/images/screenshots/uk/reports.webp": {
+      "locale": "uk",
+      "view": "reports",
+      "source": "Ukrainian (uk)/Android Phones 169/04.png",
+      "sourceSha256": "e5494434ca5c586a64c4ab0aa092abd203067ec5596a912a4a7750906572aedc",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 187740,
+      "sha256": "b6adfe59bd5246e9df3a811c9e51f2df338f58196ff34aa11d2b1aa2f772e05f",
+      "pixelSha256": "4ce522601efeebaa00098207c14c4e9b85b851fd879b81f038a63ba1f8b23f9b"
+    },
+    "public/images/screenshots/uk/pdf.webp": {
+      "locale": "uk",
+      "view": "pdf",
+      "source": "Ukrainian (uk)/Android Phones 169/06.png",
+      "sourceSha256": "b435048551be132996e142b7e20a5346cca6b70a34e188057208ce3d4a523575",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 420054,
+      "sha256": "bca3ef6cbba4009e3b3c9ae1d9183f6084840f1ebcc8ecb2e0f4cdd7bd55b4e3",
+      "pixelSha256": "224367f9f57d0b10c0d53e6dcdfdbd3f119a3db68826f2fbdac3268847804141"
+    },
+    "public/images/screenshots/uk/cloud.webp": {
+      "locale": "uk",
+      "view": "cloud",
+      "source": "Ukrainian (uk)/Android Phones 169/07.png",
+      "sourceSha256": "363f53083a83b771c8f45e5d4b4687cb18f5a81f2b170f41b20ccf8ec032c067",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 383784,
+      "sha256": "6ad5c7c346961f92c8349cff0dec9e5c2f36430728e01e039d0c63f22a9e5e82",
+      "pixelSha256": "c0702699a6aec680ef10cde64558c2052afab3d56b09f5e5be45495f2dae3f55"
+    },
+    "public/images/screenshots/vi/calendar.webp": {
+      "locale": "vi",
+      "view": "calendar",
+      "source": "Vietnamese (vi)/Android Phones 169/02.png",
+      "sourceSha256": "42f98f77f715615184cc51c4bb9e759e754424a7ffef863acea760c3252f219b",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 293378,
+      "sha256": "61098ca0b81d896b1e5f63d701dc2152e23e9daadeba832c971a51562cbf2104",
+      "pixelSha256": "02d26003e613b5f5463face7b58e22e5e33d125b20ff15030c48402ca58a932e"
+    },
+    "public/images/screenshots/vi/appointments.webp": {
+      "locale": "vi",
+      "view": "appointments",
+      "source": "Vietnamese (vi)/Android Phones 169/03.png",
+      "sourceSha256": "158aa4a2370b744ca44eacc777e0b3c5d3492167e6df061b0775fc2824b61d33",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 207308,
+      "sha256": "12d3e37c174ab85b4467a568197c2c3bc463f62520112dc4c97519012c3f08ef",
+      "pixelSha256": "2b631eb3fa421c315c8db76a67572f02b48605ca0028245fc48d7b679e3bd35b"
+    },
+    "public/images/screenshots/vi/reports.webp": {
+      "locale": "vi",
+      "view": "reports",
+      "source": "Vietnamese (vi)/Android Phones 169/04.png",
+      "sourceSha256": "b43a8b89ea62038d3be6f4b937672ae6c5daf89b539fc733843da3ab545aa397",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 200034,
+      "sha256": "2d8c8d7a57162db81a852d39162a662432b7ba68329baabc09d09765a03d048b",
+      "pixelSha256": "25b92371f0f0c01849cc0a9b02d9b3ea725571308aacfff1007a49493023d72b"
+    },
+    "public/images/screenshots/vi/pdf.webp": {
+      "locale": "vi",
+      "view": "pdf",
+      "source": "Vietnamese (vi)/Android Phones 169/06.png",
+      "sourceSha256": "641ff2bffd6c87e43c082380309217f01c036ac40b23a76f70a4f017f4328e07",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 422516,
+      "sha256": "e03947827c970098fbf02fe5b6b46976e961ebce941dd1404dab7d873a6d0b23",
+      "pixelSha256": "4884aee90cbdb9009eb8a1adbd1c115a6b206afabfcd6cab7de0c02ce4124bad"
+    },
+    "public/images/screenshots/vi/cloud.webp": {
+      "locale": "vi",
+      "view": "cloud",
+      "source": "Vietnamese (vi)/Android Phones 169/07.png",
+      "sourceSha256": "94dd8772815c1438bf7a2d2e3118202fd77b599c58c69397324b8a0a61c9f022",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 377372,
+      "sha256": "5c10cdc7b2812cc2102ebda89bd36c3553d75a49c3a19848958e81bce79fb6fe",
+      "pixelSha256": "de63d0ba6750569d5acdafb5bdc645b0e7865120f63264230bffa5894b1d1d2a"
+    },
+    "public/images/screenshots/fil/calendar.webp": {
+      "locale": "fil",
+      "view": "calendar",
+      "source": "Filipino (fil)/Android Phones 169/02.png",
+      "sourceSha256": "feedcb9af9a6fd21c08fad3cd8047735c5f0de03ee4c88b49e85e715af39124b",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 297984,
+      "sha256": "ea9478974b5f40ab75b1ad6c2057a93618eb026e7ff6d03a3796f94cfb3e1b3e",
+      "pixelSha256": "a3dd845beccc4a45bb3734f70fde327c1ea6e665d4b414702fc96de4ab2701c1"
+    },
+    "public/images/screenshots/fil/appointments.webp": {
+      "locale": "fil",
+      "view": "appointments",
+      "source": "Filipino (fil)/Android Phones 169/03.png",
+      "sourceSha256": "74dfc7030d17398d2156270a7bf2595c0cc92bf0cc5834d479c400d4acab31d6",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 221992,
+      "sha256": "67d4ccfb75eec4f4003c3c0f230bea6806145077078d9685cc513afe4c1814bf",
+      "pixelSha256": "dfc5ecd8245908dd6138da032988ce1ebb035f986d27fa126480d118f2ed05a6"
+    },
+    "public/images/screenshots/fil/reports.webp": {
+      "locale": "fil",
+      "view": "reports",
+      "source": "Filipino (fil)/Android Phones 169/04.png",
+      "sourceSha256": "2a0da670090b07fb7e4d67aa5dfa418d4b96a65ef47fda0b1578a704c96dd448",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 209802,
+      "sha256": "2fc585eea3396aae146d66ba7e1585743a9dce647a643a8a85ea6970b37d6245",
+      "pixelSha256": "bf25dd30c02b5cb6995e6f4d6d8d9a6b523e858e602cd0844b3adcacf19f0c3e"
+    },
+    "public/images/screenshots/fil/pdf.webp": {
+      "locale": "fil",
+      "view": "pdf",
+      "source": "Filipino (fil)/Android Phones 169/06.png",
+      "sourceSha256": "a9a39c58071e9bea08e88b8dbd809b379b4356a920ed9f1c50b751fc2de36a64",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 450228,
+      "sha256": "ee64b41ec75fe5f515b6d7f71daf37ffea84414ab673b49a61ebbee0a0cb19df",
+      "pixelSha256": "93e22f8be404793293072f299b07cd406c883cb9ab0e265db4726caa56d6b322"
+    },
+    "public/images/screenshots/fil/cloud.webp": {
+      "locale": "fil",
+      "view": "cloud",
+      "source": "Filipino (fil)/Android Phones 169/07.png",
+      "sourceSha256": "9092c87a027023c85e10f975dd53522c75c4c148f56e0c543bda802c20972363",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 380704,
+      "sha256": "26159e512e8c77bc192a4764a0e4c077a525fef9b16bbe399f3bc3b2e1d2dd61",
+      "pixelSha256": "1483402ba9d589b01879c1c0b5ff1f491fc8980d658ba8d048a905a9cef7516f"
+    },
+    "public/images/screenshots/el/calendar.webp": {
+      "locale": "el",
+      "view": "calendar",
+      "source": "Greek (el-GR)/Android Phones 169/02.png",
+      "sourceSha256": "1c4b89cc4b242f62f70c5f2aebb4c0eeb83d9db34b34a1fe1fb83e65f90f5343",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 334956,
+      "sha256": "78b6eff2add8e8d7e583e5d59dfab8980c8eaffdeab3443738339e7cdf0883e7",
+      "pixelSha256": "67e5774bf6c04d685c1b0c4d2cc188a6734a0afb4ca8ad8506042af66aaba223"
+    },
+    "public/images/screenshots/el/appointments.webp": {
+      "locale": "el",
+      "view": "appointments",
+      "source": "Greek (el-GR)/Android Phones 169/03.png",
+      "sourceSha256": "93fbdec41de68f3fde2d75c1b9f734e2781c2882e6d9df172eecc82c6b0132bb",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 216098,
+      "sha256": "89d049fe97d2feed2a33f83227b197864dcaaabe470d558d71fe4eea3b090be5",
+      "pixelSha256": "c0cb4f4147408e61428b17c14f2fbb921c2931e66543907ff5da364a130d5768"
+    },
+    "public/images/screenshots/el/reports.webp": {
+      "locale": "el",
+      "view": "reports",
+      "source": "Greek (el-GR)/Android Phones 169/04.png",
+      "sourceSha256": "0f883722df645f302ca5593013038b99c200bef657e48b4f22afe12742a6c94e",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 218024,
+      "sha256": "447a788377a635bf56ce2c3c915170a23d7532daa32b691c3aa716e428e932c8",
+      "pixelSha256": "3b3bccc00797de2f69351118c4aa0f3fe625a804981fd7e24bcac4f163c07675"
+    },
+    "public/images/screenshots/el/pdf.webp": {
+      "locale": "el",
+      "view": "pdf",
+      "source": "Greek (el-GR)/Android Phones 169/06.png",
+      "sourceSha256": "f7327a29a35084b341fa7386b7cefabdfaa94bf83c5445b25543996f3f13d5fb",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 455868,
+      "sha256": "bdaca50ef127e82308a251eca3c2d68338a76d04fa597b8c3b2440bb8d862485",
+      "pixelSha256": "6dd93f19bc839413774dc536285d9a6009edc910f58ca1c56830dc32e99bdb83"
+    },
+    "public/images/screenshots/el/cloud.webp": {
+      "locale": "el",
+      "view": "cloud",
+      "source": "Greek (el-GR)/Android Phones 169/07.png",
+      "sourceSha256": "a11720028c5818b3aff4d21a8b7fa9444394792ed03ed0da7b178b38e5e70bd0",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 419256,
+      "sha256": "f0057487734441a55cfb418c35e708e6838921cd9aada13d2a48aad5da18f071",
+      "pixelSha256": "a6bc142f4c4c30cd0684ecf129a455fd0b7ad28fc08fc83455b59fd76d2ea340"
+    },
+    "public/images/screenshots/sr/calendar.webp": {
+      "locale": "sr",
+      "view": "calendar",
+      "source": "Serbian (sr)/Android Phones 169/02.png",
+      "sourceSha256": "c2f0a5a869fab121158f699088c43cd118396c7e9ef2d7a91c2bcb8c65c21f23",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 314748,
+      "sha256": "7e7adeed8ea4fe398cb4a887dc6e175862e7228119898c4cb72091634fa4ab4f",
+      "pixelSha256": "2b52816fbbf32f89c304a56938efedba190a42d05e6b2ab5bedede5722234c68"
+    },
+    "public/images/screenshots/sr/appointments.webp": {
+      "locale": "sr",
+      "view": "appointments",
+      "source": "Serbian (sr)/Android Phones 169/03.png",
+      "sourceSha256": "cd090cf557e7deedc1dda8bba0cc5406cc2b3b8fbbcaf2252072f052a4b78c88",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 212244,
+      "sha256": "040d9b374db14981b11e32a12cc47fdfc32e2017b54da356c827b880f8e53265",
+      "pixelSha256": "6d4e3c680ab25cd9d733b30ac8782d95fe907da591c7a20c63b3aadc31128321"
+    },
+    "public/images/screenshots/sr/reports.webp": {
+      "locale": "sr",
+      "view": "reports",
+      "source": "Serbian (sr)/Android Phones 169/04.png",
+      "sourceSha256": "47f321aded4b914cf6a53f6d56401854e0f1290bd5e43c45116a9dcf9e6c68ed",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 182834,
+      "sha256": "b4decff4226edf6c72db5ead3ef5d0d44bea1398b250c98a8772c8a4b7310af4",
+      "pixelSha256": "f19e8e170e326c535a385152079207e42ef0f2bade230ffa71544d4e11cf476e"
+    },
+    "public/images/screenshots/sr/pdf.webp": {
+      "locale": "sr",
+      "view": "pdf",
+      "source": "Serbian (sr)/Android Phones 169/06.png",
+      "sourceSha256": "47bdc016b7e570a21cb0df925f39b4f415247732f94825d2f5b3cebc6de130b3",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 422138,
+      "sha256": "e16a845b86ddbc38bab6b4b7f5530d1fdd15e382c3f0a792d26dad666f422897",
+      "pixelSha256": "f211d26f8b3158381964b3b33fb7f5bfa000eba5da377c1f6e58c7f80a176110"
+    },
+    "public/images/screenshots/sr/cloud.webp": {
+      "locale": "sr",
+      "view": "cloud",
+      "source": "Serbian (sr)/Android Phones 169/07.png",
+      "sourceSha256": "dd2cd3b34eb7e50486f339aafd6221df4ba2382300335dbdc345b05f117b0add",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 393834,
+      "sha256": "c4377f084bb7e2d66ab78798fab8bb444d6ab83694bdd674f48498b01622dea3",
+      "pixelSha256": "4f60565f99d8942c3498de82aeef236335135907b73c643b41aae605542febef"
+    },
+    "public/images/screenshots/sl/calendar.webp": {
+      "locale": "sl",
+      "view": "calendar",
+      "source": "Slovenian (sl)/Android Phones 169/02.png",
+      "sourceSha256": "0ee5145c7616de281eb1b63ad396997ccb33c2e90f5e410567c45cf7226a0aae",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 310718,
+      "sha256": "a350c6891e08dc7757151034d067f8019dd284100deff286a1a4a4f527697d9e",
+      "pixelSha256": "5803fe6dc8f3cd4b5be71df276a5b9c06d807c0f95c23f4fe86e8796f57706a1"
+    },
+    "public/images/screenshots/sl/appointments.webp": {
+      "locale": "sl",
+      "view": "appointments",
+      "source": "Slovenian (sl)/Android Phones 169/03.png",
+      "sourceSha256": "c325ce3c9674c16717eac99eb1fa88eca2f483b1f36553c3b888e8b6fad9b9cd",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 213192,
+      "sha256": "f3563059b183a3f30d1d964195ccdeaa1add84fdf98fd47a5459dcbcd346028a",
+      "pixelSha256": "e7f60565a15ed840ab8d960d71d3e4a772747a9d98b87469c05776dc6cf37151"
+    },
+    "public/images/screenshots/sl/reports.webp": {
+      "locale": "sl",
+      "view": "reports",
+      "source": "Slovenian (sl)/Android Phones 169/04.png",
+      "sourceSha256": "81acb0b4ebc2a22c578419e6ca4ab95a970d815d95ac0bad6a8fae618580e494",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 179418,
+      "sha256": "5ef37d61e9da32348022f9bfc5ce5f18946ef3109af68f3262af1997427d05a9",
+      "pixelSha256": "48c032a99e61da001835e291f5c6ea75dab0131e9d6d77fbc8af747f5d2e8de6"
+    },
+    "public/images/screenshots/sl/pdf.webp": {
+      "locale": "sl",
+      "view": "pdf",
+      "source": "Slovenian (sl)/Android Phones 169/06.png",
+      "sourceSha256": "9c4a46857d09829decaf3027a61ed1d4b2b5e812dbaf1ca6880b54f87d5baab0",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 420424,
+      "sha256": "6ba1b954b30fb9b1585d23107cd8b6e91a3ee7174d3557d96ae88368caae1138",
+      "pixelSha256": "ba7ee3f90289dc1d62bb9808026476922cc0d6ef1d50aa1aee7696e235d71423"
+    },
+    "public/images/screenshots/sl/cloud.webp": {
+      "locale": "sl",
+      "view": "cloud",
+      "source": "Slovenian (sl)/Android Phones 169/07.png",
+      "sourceSha256": "d65b2ca34769bd41c806f8c1acb3d2c26db79a396c4669e067e1252b889a7d56",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 393146,
+      "sha256": "1af2a5295ff50404ed8cfa4b41c1504f5f414bc039cdb388a036180697b004be",
+      "pixelSha256": "d639899584515f9dc5eda9a4e37c342a7f6812cbb54a668785c8258b9695086a"
+    },
+    "public/images/screenshots/fi/calendar.webp": {
+      "locale": "fi",
+      "view": "calendar",
+      "source": "Finnish (fi-FI)/Android Phones 169/02.png",
+      "sourceSha256": "df33faaf9aae8c4ccc6577ba9dc410b4e05ff7ebecd408da48e325ccd1f64a34",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 291254,
+      "sha256": "5a55aab5920e3e59e98e0523c5d06685a202a5d6527939c12c0bf8613e3ee62c",
+      "pixelSha256": "4d43689be65991789f4a78f3ec088002ab0835516825aa69c6131228b609892a"
+    },
+    "public/images/screenshots/fi/appointments.webp": {
+      "locale": "fi",
+      "view": "appointments",
+      "source": "Finnish (fi-FI)/Android Phones 169/03.png",
+      "sourceSha256": "9faaf346741b311537f67cdad156b827f07032bff5ce5bc7f6493e806bb884be",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 205690,
+      "sha256": "d22ea2078f3937faf429fe54a6ed40b17453a0d3479e54b1035d0540224a9e33",
+      "pixelSha256": "59115e1f014f2451121cc5730c61136f1248e7385f7c92ea2336e0888ba14df8"
+    },
+    "public/images/screenshots/fi/reports.webp": {
+      "locale": "fi",
+      "view": "reports",
+      "source": "Finnish (fi-FI)/Android Phones 169/04.png",
+      "sourceSha256": "99bf6fbfa59dbac445039aee71a6c9ef1f71a8164590dcd9f237d615b7672203",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 200126,
+      "sha256": "3be5cb39dc5e7f90c271adfba2a0fb97fc0f12213460df715995a08f90a2f933",
+      "pixelSha256": "192fe182577944e9ac416c02247c3cbdf386bd7a461ead3fb49dabd7ecbaac8b"
+    },
+    "public/images/screenshots/fi/pdf.webp": {
+      "locale": "fi",
+      "view": "pdf",
+      "source": "Finnish (fi-FI)/Android Phones 169/06.png",
+      "sourceSha256": "e326de5984c952e6f44dda093480f4ac4f18a23244667a3627d8bbfc7b23a844",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 407864,
+      "sha256": "26f6dad18c77b14362e02a2eba5753cf738a711289ce79ef0008b521f0361785",
+      "pixelSha256": "5a99a6845b46ef6edffbc8a72c39caaf78bc80d5cadc2e5bb758efa09bc04155"
+    },
+    "public/images/screenshots/fi/cloud.webp": {
+      "locale": "fi",
+      "view": "cloud",
+      "source": "Finnish (fi-FI)/Android Phones 169/07.png",
+      "sourceSha256": "8936fc14f2ba83aba3e479c0bf0397453c695477de8d4fd649e131c3f6df7221",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 379456,
+      "sha256": "d048fcf09159e45fd48662a2add94286da6c86569a50e77611db076c218cd82f",
+      "pixelSha256": "03c8baf70edf24c533feab6c08c264d1f0728f148ca1332291cc99536ad1d9e9"
+    },
+    "public/images/screenshots/ms/calendar.webp": {
+      "locale": "ms",
+      "view": "calendar",
+      "source": "Malay (ms)/Android Phones 169/02.png",
+      "sourceSha256": "f4f39c7f9ef8b4bdeb6607ee55cc67f650ad6631c7ceb33e1491a3bfae435c97",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 297294,
+      "sha256": "7f532bd6b41dba2c4328ca06819f86938aea553093817311ad23e7f70dcf02da",
+      "pixelSha256": "bcb1628b183cd9fafd0c075f5097df53f8ce81cc2c43c4dfb7666bf70107d438"
+    },
+    "public/images/screenshots/ms/appointments.webp": {
+      "locale": "ms",
+      "view": "appointments",
+      "source": "Malay (ms)/Android Phones 169/03.png",
+      "sourceSha256": "71db778c06087292223f20ce6189379ac7882159b00a81acb0cccd5302fda0fc",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 208994,
+      "sha256": "34fd36dfd7ef707966c9ac9ec34a966afdf143d8cdea0aeec67bf129a5c6f3f5",
+      "pixelSha256": "72993d929b32e624f0d23bcc6b69c6002fff8d05ba32e187dc569905674adf15"
+    },
+    "public/images/screenshots/ms/reports.webp": {
+      "locale": "ms",
+      "view": "reports",
+      "source": "Malay (ms)/Android Phones 169/04.png",
+      "sourceSha256": "ea8ad5e76b86987c945cda4b999fdd23ad490e78dd254372191234d315cc9b2d",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 202030,
+      "sha256": "be0a7f50834fbff1898f0526031f3c9b6a2a343a2e22a6ee3b3740ff22c009e9",
+      "pixelSha256": "5d6ef98bafdb47b0a236006248a9ea137a9706f8dac1ee5755065aad686d7d96"
+    },
+    "public/images/screenshots/ms/pdf.webp": {
+      "locale": "ms",
+      "view": "pdf",
+      "source": "Malay (ms)/Android Phones 169/06.png",
+      "sourceSha256": "2fb2ec1162f71f5e7575cfbf1e6dfbf4a7b25c6c4190d78464017e96d08c8f86",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 445068,
+      "sha256": "dbe49a9f63b29bf35079e96c28ceae9da74916e1b43687f4ea70c21355e26c4a",
+      "pixelSha256": "4d67b3642078f8d22c79f0bd1d7a350ca643c9ed7fc27b0cfcb6b139a50f3ad6"
+    },
+    "public/images/screenshots/ms/cloud.webp": {
+      "locale": "ms",
+      "view": "cloud",
+      "source": "Malay (ms)/Android Phones 169/07.png",
+      "sourceSha256": "d1ee7e04cd08baef6e74ff848b471970608afd51c86888970ccf020882101d70",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 383720,
+      "sha256": "1aed397bc2163d5c3b91ececaf8af5bacdb5267a3766b99a4d3a8098f27055fa",
+      "pixelSha256": "107ddfd58fa8c871bd584b074af8e72e36da2123def34abb748985f596ddaa50"
+    },
+    "public/images/screenshots/da/calendar.webp": {
+      "locale": "da",
+      "view": "calendar",
+      "source": "Danish (da-DK)/Android Phones 169/02.png",
+      "sourceSha256": "a4b85589dc09cf0c3a43bda33ae642a0e260b70a45d57859ad92c8373f1db945",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 287322,
+      "sha256": "14f946ba6f27fdf71a7c0923c31c7c498a076ec7297f2801d65f4d629a355483",
+      "pixelSha256": "b4a87921ab330cacfdd449919c789e3f4c0f5f298d14312375e84bf278ce90be"
+    },
+    "public/images/screenshots/da/appointments.webp": {
+      "locale": "da",
+      "view": "appointments",
+      "source": "Danish (da-DK)/Android Phones 169/03.png",
+      "sourceSha256": "619d2fcadb922c2c99a873405516cafdbff96d9e4a514b1961c7615c45a7b5c1",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 211048,
+      "sha256": "ebb6d57a20c7c326943b2fdcedbe4bd6120b243fca8df9f021338933343e346a",
+      "pixelSha256": "e897ee21aab54e381f31f8e68da235d1ba4a2afedaed7353d25ba28c77abd7bf"
+    },
+    "public/images/screenshots/da/reports.webp": {
+      "locale": "da",
+      "view": "reports",
+      "source": "Danish (da-DK)/Android Phones 169/04.png",
+      "sourceSha256": "3e6742c53a321ffcca622c5c8ae8e49a058f06cfa090d7efda27504ead5daa1f",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 196242,
+      "sha256": "bab8c72f7f5df02cb7107e429780c2a37f27a4e1fdf76085de96785ceadd7089",
+      "pixelSha256": "1dc2f13c15bad69a13439c2ca3a128b26384a7ae3604eea3b48902e3e049b558"
+    },
+    "public/images/screenshots/da/pdf.webp": {
+      "locale": "da",
+      "view": "pdf",
+      "source": "Danish (da-DK)/Android Phones 169/06.png",
+      "sourceSha256": "86e0c9fd0ff0b9300f324ead3593dfff863b95b17bdb96bb7f22bbe5e0f72f12",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 415852,
+      "sha256": "10bc4e558cad7d04a2e9f1e1dc8e1193ea85e9a356f8a059ebe8e4f7e772b66c",
+      "pixelSha256": "156e3ae1369d9894efd69d7ff7bc6489dac724902ef30cbadc106f84dbd2a08c"
+    },
+    "public/images/screenshots/da/cloud.webp": {
+      "locale": "da",
+      "view": "cloud",
+      "source": "Danish (da-DK)/Android Phones 169/07.png",
+      "sourceSha256": "568f382629c19b5cf13d18d4a903b1bb559be954517bd728a221a9cab05e8045",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 373364,
+      "sha256": "5094dfa90cc09de3f8b438088f924c3665540998fd96a3699585b4dcba13a5ff",
+      "pixelSha256": "3e3671637fdb0221bc2d2c0150893a47afbb58878f57b2ffec861d30cba633c0"
+    },
+    "public/images/screenshots/sw/calendar.webp": {
+      "locale": "sw",
+      "view": "calendar",
+      "source": "Swahili (sw)/Android Phones 169/02.png",
+      "sourceSha256": "47d53cc840641dade154ee69ca556c2ea62f9c7db12a530223a9a9db7eeafd57",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 310886,
+      "sha256": "3474322d4ef9f6141a1803657c49df6777abf97cdd3282c6deaf28b3b041092e",
+      "pixelSha256": "274e3dcde6a60e74a8b309456e513b29311f62eb585fd424b82807a11bb8307d"
+    },
+    "public/images/screenshots/sw/appointments.webp": {
+      "locale": "sw",
+      "view": "appointments",
+      "source": "Swahili (sw)/Android Phones 169/03.png",
+      "sourceSha256": "1881ff3c02f4ea580bc27ec3fceab51d670438b8b2a0debf4bad975fa8974e48",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 210420,
+      "sha256": "dc0a3e8b557b1b8f1e19b8dcf65906b56a2d1a2b8029145e5dfdeb6d2d74d752",
+      "pixelSha256": "d908f0f3a3d1ce220e168242b05dfe15e5f70a5f1e43848a4e9abe18735121a2"
+    },
+    "public/images/screenshots/sw/reports.webp": {
+      "locale": "sw",
+      "view": "reports",
+      "source": "Swahili (sw)/Android Phones 169/04.png",
+      "sourceSha256": "ab5bf5d4a36f9ed9f3009acdb3a00c007b21ae80a4e4c74affac8de859cb9cc7",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 200306,
+      "sha256": "3b65ef9a5155346f5ba97212e17e1facd91a5ab587b01d099c67d5bffb32b81f",
+      "pixelSha256": "de6cbfc6c447006e3ea8f5c210bff6cbb51af9e23d36d7ce13b081bf793add01"
+    },
+    "public/images/screenshots/sw/pdf.webp": {
+      "locale": "sw",
+      "view": "pdf",
+      "source": "Swahili (sw)/Android Phones 169/06.png",
+      "sourceSha256": "31586027aaed0eeed50b70a00b1121e7997709b1fffd47f6245870eb08d7cafe",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 435368,
+      "sha256": "ae47c3cbcb7d1013144fc8c3d7716f42f4f28e40684efc95d3ee82fb2031ef95",
+      "pixelSha256": "88a2945b7add1d955a8c44a2fcadeb903b11d32aeb1a649630f6a9d0d21f7c0b"
+    },
+    "public/images/screenshots/sw/cloud.webp": {
+      "locale": "sw",
+      "view": "cloud",
+      "source": "Swahili (sw)/Android Phones 169/07.png",
+      "sourceSha256": "9c6395a6e35da176baf11c6e6af4dfa85eb50809d2221afe048dc7a8789a325d",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 392570,
+      "sha256": "25bed1737bc244b7ef3b62ab587c331d806ad415b78fbfe049d500bb0795569e",
+      "pixelSha256": "b1c5b45f566af11dbb4b9d9335e85d914906877070a5bf901ad1ec02a64db329"
+    },
+    "public/images/screenshots/zh-cn/calendar.webp": {
+      "locale": "zh-cn",
+      "view": "calendar",
+      "source": "Chinese Simplified (zh-CN)/Android Phones 169/02.png",
+      "sourceSha256": "dfd7a6d2eecfe143a8a01252d9c0924b2ebf2b9df798d42923ab0f457a997f83",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 298456,
+      "sha256": "94e38df309f4a3019eb5603100bcbea53628bcbba79f9cc30efc012b5fc58e99",
+      "pixelSha256": "215d9e1ba71ec98a98bc8a7eabf4bc9dd360646257f0a2d14b4a9c7d13816a8b"
+    },
+    "public/images/screenshots/zh-cn/appointments.webp": {
+      "locale": "zh-cn",
+      "view": "appointments",
+      "source": "Chinese Simplified (zh-CN)/Android Phones 169/03.png",
+      "sourceSha256": "7c09ea7316042dfb433b535073bda142d033ebfbcb0440ce31dde9ea62e026ef",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 208998,
+      "sha256": "956ed39aa83b5235741690bcad8fd51d6cc54881673a1ab5a6b176064bd801bd",
+      "pixelSha256": "ba0bef3f495d3c6e8407e02d6584fa0f6193d64cbc5bcd0ab2680c39fcdc011f"
+    },
+    "public/images/screenshots/zh-cn/reports.webp": {
+      "locale": "zh-cn",
+      "view": "reports",
+      "source": "Chinese Simplified (zh-CN)/Android Phones 169/04.png",
+      "sourceSha256": "8dd022d9d5ac8064b7bcd3f22b8d4f2d3da35a25fe421f544b6e961d5db7db63",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 188190,
+      "sha256": "45c47a88ebd891a0824b9ad31359f6cf44981cb95af390144411a03225874a14",
+      "pixelSha256": "d6f70659354d1c6beda943ef0986f6d30cefd7fd6bef0efab9030ced5ae2debb"
+    },
+    "public/images/screenshots/zh-cn/pdf.webp": {
+      "locale": "zh-cn",
+      "view": "pdf",
+      "source": "Chinese Simplified (zh-CN)/Android Phones 169/06.png",
+      "sourceSha256": "b7ce49cfcac4cc672701d70094c8b6d23d9705472fe5e829c70d18f600cdcc17",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 417548,
+      "sha256": "e797c6a66df8c892179718b7593b40770085a0d1c607db19a9e25c973c243444",
+      "pixelSha256": "76f4313294df19263c1c98b4cc35b582253627b8ff37dd0458910758821f1171"
+    },
+    "public/images/screenshots/zh-cn/cloud.webp": {
+      "locale": "zh-cn",
+      "view": "cloud",
+      "source": "Chinese Simplified (zh-CN)/Android Phones 169/07.png",
+      "sourceSha256": "8d7579b8d6f1fb9a1e5dc4372677c66cdf14ddb69989acabd6992086d2c86623",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 383422,
+      "sha256": "35d4c0dbd0934cd82a19541a990380e182a3a811af0b18ffbbfe52c23b02c74a",
+      "pixelSha256": "83f2b012d512de1af441e65f6a1dbbe70dde53f53fa59ac5559d1b0639cd558e"
+    },
+    "public/images/screenshots/zh-tw/calendar.webp": {
+      "locale": "zh-tw",
+      "view": "calendar",
+      "source": "Chinese Traditional (zh-TW)/Android Phones 169/02.png",
+      "sourceSha256": "caea647cecbc2863396d906d42fa4f8b96376724c29034035331993decc95080",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 296454,
+      "sha256": "24f390b11862bb3f3d91fbfae0853a8c90da06617c404eb0c90788fb4e4227fa",
+      "pixelSha256": "bc8d5a0f5e7918f41592f70ec7ad4a8f53a0a38c86ce1479c359452771d5aa8e"
+    },
+    "public/images/screenshots/zh-tw/appointments.webp": {
+      "locale": "zh-tw",
+      "view": "appointments",
+      "source": "Chinese Traditional (zh-TW)/Android Phones 169/03.png",
+      "sourceSha256": "7a557acdce39cef1499f7aa66d599dee797a49c2075302196a25281e6c91aef6",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "size": [
+        1144,
+        2473
+      ],
+      "bytes": 207910,
+      "sha256": "4dbaeb129f5130492b158b75db181e8001d4071fca5200bd27be9423b53a3e63",
+      "pixelSha256": "261f9475fd9f666d4acd4caf17fa73def459205963bc51eabb059f162727beee"
+    },
+    "public/images/screenshots/zh-tw/reports.webp": {
+      "locale": "zh-tw",
+      "view": "reports",
+      "source": "Chinese Traditional (zh-TW)/Android Phones 169/04.png",
+      "sourceSha256": "864d89a85cde07629115990081f99b0e778f37c3e26c574d0625a061edad3f06",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "size": [
+        1118,
+        2473
+      ],
+      "bytes": 202060,
+      "sha256": "6701f9ed660b9b7c3c7369b1fe62f9321b6d8d7c33718a4e0a976ad30cffcdb6",
+      "pixelSha256": "006eff15e259c913c5277c4f01b7e880ad4a6f610bfa53457e931b8a21761dfb"
+    },
+    "public/images/screenshots/zh-tw/pdf.webp": {
+      "locale": "zh-tw",
+      "view": "pdf",
+      "source": "Chinese Traditional (zh-TW)/Android Phones 169/06.png",
+      "sourceSha256": "99f970a1c011ab9599d1346c7c6088a93da18835d095fa21f62b2ba937dc0063",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "size": [
+        2064,
+        2545
+      ],
+      "bytes": 436950,
+      "sha256": "118b83637c50df6f85c1c4b0a4c432bb4a6725a8496123adc091d00ddc3f8a10",
+      "pixelSha256": "c1e38f32bbbde550bc5e7bc7bbd760514405220ea8f174eb964e2d7f4b4ba626"
+    },
+    "public/images/screenshots/zh-tw/cloud.webp": {
+      "locale": "zh-tw",
+      "view": "cloud",
+      "source": "Chinese Traditional (zh-TW)/Android Phones 169/07.png",
+      "sourceSha256": "cdfc6468935ad35f886a650869bb2c1460cb1fe26e0fde56dc5101951a7975be",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "size": [
+        2096,
+        2040
+      ],
+      "bytes": 381970,
+      "sha256": "0e165f5e15a559de6459e56264b621dba7ee4a3a08b26a3f25bffc25a30e549d",
+      "pixelSha256": "325a0917bd90dd7ae1d1fde458bec56f4fbde4b16b4624871a9c31941fbe5fb6"
+    }
+  }
+}

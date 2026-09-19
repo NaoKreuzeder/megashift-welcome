@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "sourceSize": [
+    2160,
+    3840
+  ],
+  "sourceSubdirectory": "Android Phones 169",
+  "locales": {
+    "en": "English (en-US)",
+    "de": "German (de-DE)",
+    "es": "Spanish (es-ES)",
+    "fr": "French (fr-FR)",
+    "it": "Italian (it-IT)",
+    "pt": "Portuguese (pt-PT)",
+    "pt-br": "Portuguese Brazil (pt-BR)",
+    "th": "Thai (th)",
+    "pl": "Polish (pl-PL)",
+    "cs": "Czech (cs-CZ)",
+    "hi": "Hindi (hi-IN)",
+    "hr": "Croatian (hr)",
+    "hu": "Hungarian (hu-HU)",
+    "ja": "Japanese (ja-JP)",
+    "ko": "Korean (ko-KR)",
+    "ro": "Romanian (ro)",
+    "ru": "Russian (ru-RU)",
+    "sk": "Slovak (sk)",
+    "sv": "Swedish (sv-SE)",
+    "tr": "Turkish (tr-TR)",
+    "id": "Indonesian (id)",
+    "nb": "Norwegian (no-NO)",
+    "nl": "Dutch (nl-NL)",
+    "bg": "Bulgarian (bg)",
+    "bn": "Bangla (bn-BD)",
+    "uk": "Ukrainian (uk)",
+    "vi": "Vietnamese (vi)",
+    "fil": "Filipino (fil)",
+    "el": "Greek (el-GR)",
+    "sr": "Serbian (sr)",
+    "sl": "Slovenian (sl)",
+    "fi": "Finnish (fi-FI)",
+    "ms": "Malay (ms)",
+    "da": "Danish (da-DK)",
+    "sw": "Swahili (sw)",
+    "zh-cn": "Chinese Simplified (zh-CN)",
+    "zh-tw": "Chinese Traditional (zh-TW)"
+  },
+  "views": {
+    "calendar": {
+      "source": "02.png",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "layout": [
+        420,
+        908
+      ]
+    },
+    "appointments": {
+      "source": "03.png",
+      "crop": [
+        518,
+        718,
+        1662,
+        3191
+      ],
+      "layout": [
+        420,
+        908
+      ]
+    },
+    "reports": {
+      "source": "04.png",
+      "crop": [
+        527,
+        713,
+        1645,
+        3186
+      ],
+      "layout": [
+        420,
+        929
+      ]
+    },
+    "pdf": {
+      "source": "06.png",
+      "crop": [
+        77,
+        742,
+        2141,
+        3287
+      ],
+      "layout": [
+        640,
+        789
+      ]
+    },
+    "cloud": {
+      "source": "07.png",
+      "crop": [
+        33,
+        1100,
+        2129,
+        3140
+      ],
+      "layout": [
+        640,
+        623
+      ]
+    }
+  },
+  "sourceOverrides": {
+    "bn": {
+      "reports": "05.png"
+    }
+  }
+}

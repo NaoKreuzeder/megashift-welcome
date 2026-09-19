@@ -1,0 +1,35 @@
+{
+  "reference": "NaoKreuzeder/megashift-welcome@331c31d5319250313c00eb291ef9d669f2556ac1 (main)",
+  "site": [
+    ".phone{background:#111728;border:7px solid #111728;border-radius:34px;overflow:hidden;box-shadow:0 0 0 1px #71809b,0 25px 55px #08102433;line-height:0}",
+    ".phoneImage{display:block;width:100%;height:auto}"
+  ],
+  "home": [
+    ".heroVisual{height:570px;position:relative}",
+    ".glow{position:absolute;inset:50px 0;background:radial-gradient(ellipse,#5a6eea22,transparent 68%)}",
+    ".frontPhone,.backPhone{position:absolute}",
+    ".frontPhone{width:255px;right:25px;top:0;transform:rotate(6deg);z-index:2}",
+    ".backPhone{width:215px;left:25px;top:100px;transform:rotate(-9deg);opacity:.92}",
+    ".insightVisual{background:linear-gradient(145deg,#e9f0fb,#dcecf6);border-radius:24px;min-height:650px;display:flex;align-items:center;justify-content:center;overflow:hidden}",
+    ".insightVisual>div{width:245px;transform:rotate(-4deg)}",
+    ".proGrid img{width:100%;height:auto;margin-top:auto;object-fit:contain;mix-blend-mode:multiply}",
+    ".calendarPhones{height:590px;position:relative;isolation:isolate}",
+    ".calendarPrimary,.calendarSecondary{position:absolute}",
+    ".calendarPrimary{width:235px;left:60px;top:38px;z-index:2;transform:rotate(-4deg)}",
+    ".calendarSecondary{width:185px;right:34px;top:92px;z-index:1;transform:rotate(4deg);opacity:.66;filter:saturate(.5) brightness(1.04)}",
+    ".calendarSecondary:after{content:\"\";position:absolute;inset:0;border-radius:34px;background:linear-gradient(90deg,#f8fafc22,#f8fafc88);pointer-events:none}",
+    ".frontPhone{width:220px;right:0}",
+    ".backPhone{width:185px;left:0}",
+    ".heroVisual{height:500px}",
+    ".calendarPrimary{width:210px;left:28px}",
+    ".calendarSecondary{width:165px;right:10px;top:105px}",
+    ".calendarPhones{height:520px}",
+    ".heroVisual{height:485px;max-width:360px;width:100%;margin:auto}",
+    ".frontPhone{width:210px;right:16px}",
+    ".backPhone{width:170px;left:8px;top:95px}",
+    ".insightVisual{min-height:560px}",
+    ".calendarPhones{height:500px;max-width:360px;width:100%;margin:auto}",
+    ".calendarPrimary{width:205px;left:20px;top:38px}",
+    ".calendarSecondary{width:158px;right:12px;top:118px;opacity:.62}"
+  ]
+}

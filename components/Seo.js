@@ -1,13 +1,18 @@
 import Head from 'next/head';
 import { site } from '@/lib/site';
+import { locales } from '@/lib/i18n/locales';
 
 export default function Seo({
   title = 'Megashift — Shift calendar & work hours',
   description = 'Plan shifts, track working hours, view reports and keep your work schedule in one clear calendar. Megashift is available for iOS and Android.',
   path = '/',
   noindex = false,
+  locale,
 }) {
   const canonical = `${site.url}${path}`;
+  const isLocalizedHome = locale && (path === '/' || path === `/${locale.slug}`);
+  const isLocalizedSupport = locale && path.endsWith('/support');
+
   return (
     <Head>
       <title>{title}</title>
@@ -16,7 +21,14 @@ export default function Seo({
       <meta name="theme-color" content="#081024" />
       <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
       <link rel="canonical" href={canonical} />
-      <link rel="icon" href="/images/megashift-icon.svg" />
+      {isLocalizedHome && locales.map(item => (
+        <link key={item.slug} rel="alternate" hrefLang={item.htmlLang} href={`${site.url}${item.slug === 'en' ? '/' : `/${item.slug}`}`} />
+      ))}
+      {isLocalizedHome && <link rel="alternate" hrefLang="x-default" href={`${site.url}/`} />}
+      {isLocalizedSupport && locales.map(item => (
+        <link key={item.slug} rel="alternate" hrefLang={item.htmlLang} href={`${site.url}${item.slug === 'en' ? '/support' : `/${item.slug}/support`}`} />
+      ))}
+      {isLocalizedSupport && <link rel="alternate" hrefLang="x-default" href={`${site.url}/support`} />}
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Megashift" />
       <meta property="og:title" content={title} />
