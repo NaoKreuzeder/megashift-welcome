@@ -1,0 +1,95 @@
+name: Generate localized high-resolution screenshots
+
+on:
+  push:
+    branches: [website-i18n]
+    paths:
+      - .github/screenshot-generation-trigger
+
+permissions:
+  contents: write
+
+concurrency:
+  group: localized-screenshot-generation
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out website-i18n
+        uses: actions/checkout@v4
+        with:
+          ref: website-i18n
+          fetch-depth: 0
+
+      - name: Reassemble one-shot transport data
+        run: |
+          cat scripts/highres-helper.tar.gz.b64.* | base64 --decode > /tmp/highres-helper.tar.gz
+          tar -xzf /tmp/highres-helper.tar.gz
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install image tooling
+        run: python -m pip install -r scripts/requirements-screenshots.txt
+
+      - name: Recover exact localized source artwork from Google Play
+        run: python scripts/download-play-screenshots.py /tmp/megashift-android --expected scripts/screenshot-expected-crops.json
+
+      - name: Generate 185 native lossless WebP assets
+        run: python scripts/generate-screenshots.py /tmp/megashift-android
+
+      - name: Apply website implementation
+        run: |
+          git apply --check scripts/highres-site.patch
+          git apply scripts/highres-site.patch
+          rm -f public/images/screenshots-phone.avif public/images/screenshots-pdf.avif public/images/screenshots-cloud.avif
+
+      - name: Verify protected authentication files before dependencies
+        run: node scripts/verify-auth.mjs
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Regression tests
+        run: npm test
+
+      - name: Production build
+        run: npm run build
+
+      - name: Re-verify protected authentication files
+        run: node scripts/verify-auth.mjs
+
+      - name: Verify all generated screenshot assets
+        run: python scripts/generate-screenshots.py --check
+
+      - name: Remove one-shot transport helpers
+        run: |
+          rm -f .github/workflows/generate-localized-screenshots.yml
+          rm -f .github/screenshot-generation-trigger
+          rm -f scripts/highres-helper.tar.gz.b64.*
+          rm -f scripts/download-play-screenshots.py
+          rm -f scripts/screenshot-expected-crops.json
+          rm -f scripts/highres-site.patch
+
+      - name: Commit validated website update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --stat
+          git commit -m "Replace screenshot atlases with high-resolution localized assets"
+          git push origin HEAD:website-i18n
