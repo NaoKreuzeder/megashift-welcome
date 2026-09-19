@@ -1,0 +1,6 @@
+{
+  "pages/welcome.js": "323c733d712d7c0a0988f24f4068b37008553d00d0c4a5a3adfabbd97d216f65",
+  "pages/reset-password.js": "e996d4e8e1461f508b61e6301e7e8790bddb687c82e363d9467f1ad5c908dcfe",
+  "messages/reset-password-messages.js": "327f74c0bde5736a3b91766b6b6fd5e7f13f1630fd08e851e2668762c2c8adf5",
+  "next.config.mjs": "7737efa209ec05812c08fb628c177e28f4f2b2df882a3e792bc3bbca23aa2526"
+}

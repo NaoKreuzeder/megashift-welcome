@@ -3,6 +3,7 @@ import SiteLayout from '@/components/SiteLayout';
 import Seo from '@/components/Seo';
 import StoreButtons from '@/components/StoreButtons';
 import LocalizedVisual from '@/components/LocalizedVisual';
+import Phone from '@/components/Phone';
 import { site } from '@/lib/site';
 import styles from '@/styles/Home.module.css';
 
@@ -36,10 +37,10 @@ export default function MarketingPage({ locale, content }) {
           <div className={styles.heroVisual}>
             <div className={styles.glow} />
             <div className={styles.backPhone}>
-              <LocalizedVisual locale={locale} view="reports" alt={content.insights.title} phone />
+              <Phone locale={locale} view="reports" alt={content.insights.title} priority />
             </div>
             <div className={styles.frontPhone}>
-              <LocalizedVisual locale={locale} view="calendar" alt={content.features[0][0]} phone />
+              <Phone locale={locale} view="calendar" alt={content.features[0][0]} priority />
             </div>
           </div>
         </div>
@@ -68,7 +69,7 @@ export default function MarketingPage({ locale, content }) {
 
       <section className={styles.insights}>
         <div className={styles.insightVisual}>
-          <div><LocalizedVisual locale={locale} view="reports" alt={content.insights.title} phone /></div>
+          <Phone locale={locale} view="reports" alt={content.insights.title} />
         </div>
         <div className={styles.insightCopy}>
           <p className={styles.sectionKicker}>{content.insights.kicker}</p>
@@ -108,8 +109,8 @@ export default function MarketingPage({ locale, content }) {
           <p className={styles.small}>{content.appointments.small}</p>
         </div>
         <div className={styles.calendarPhones}>
-          <div className={styles.calendarPrimary}><LocalizedVisual locale={locale} view="appointments" alt={content.appointments.title} phone /></div>
-          <div className={styles.calendarSecondary}><LocalizedVisual locale={locale} view="calendar" alt="" phone /></div>
+          <div className={styles.calendarPrimary}><Phone locale={locale} view="appointments" alt={content.appointments.title} /></div>
+          <div className={styles.calendarSecondary}><Phone locale={locale} view="calendar" decorative /></div>
         </div>
       </section>
 

@@ -67,9 +67,13 @@ test('localized website routes and content are complete', () => {
   assert.ok(existsSync(new URL('../pages/[locale]/index.js', import.meta.url)));
   assert.ok(existsSync(new URL('../pages/[locale]/support.js', import.meta.url)));
   const localizedVisual = read('components/LocalizedVisual.js');
-  for (const asset of ['screenshots-phone.avif', 'screenshots-pdf.avif', 'screenshots-cloud.avif']) {
-    assert.match(localizedVisual, new RegExp(asset.replace('.', '\\.')));
-    assert.ok(existsSync(new URL(`../public/images/${asset}`, import.meta.url)), asset);
+  assert.match(localizedVisual, /getScreenshot/);
+  assert.match(localizedVisual, /unoptimized/);
+  for (const slug of slugs) {
+    for (const view of ['calendar', 'appointments', 'reports', 'pdf', 'cloud']) {
+      const asset = `public/images/screenshots/${slug}/${view}.webp`;
+      assert.ok(existsSync(new URL(`../${asset}`, import.meta.url)), asset);
+    }
   }
   assert.match(read('components/SiteLayout.js'), /localeBySlug\.en/);
 });
